@@ -1,0 +1,316 @@
+{
+    "name": "DDOS",
+    "remarks": "",
+    "node_info": {
+        "node1": {
+            "app_id": "start",
+            "app_type": 0
+        },
+        "node2": {
+            "app_id": "end",
+            "app_type": 0
+        },
+        "node3": {
+            "app_id": "suricata",
+            "app_type": 1,
+            "information": {
+                "action": [
+                    {
+                        "name": "日志处理",
+                        "func": "process_logs"
+                    }
+                ],
+                "app_dir": "suricata",
+                "args": {
+                    "process_logs": [
+                        {
+                            "key": "log_type",
+                            "type": "text",
+                            "required": true
+                        }
+                    ]
+                },
+                "description": "",
+                "icon": "suricata/icon.png",
+                "identification": "w5soar",
+                "is_public": true,
+                "name": "suricata",
+                "type": "ids",
+                "version": "0.1",
+                "data": {
+                    "node_name": "suricata",
+                    "action": "process_logs",
+                    "action_name": "日志处理",
+                    "description": "",
+                    "log_type": "@(node3.result)"
+                }
+            }
+        },
+        "node4": {
+            "app_id": "firewalld",
+            "app_type": 1,
+            "information": {
+                "action": [
+                    {
+                        "name": "添加端口到区域",
+                        "func": "add_port_to_zone"
+                    },
+                    {
+                        "name": "移除端口从区域",
+                        "func": "remove_port_from_zone"
+                    },
+                    {
+                        "name": "重新加载防火墙规则",
+                        "func": "reload_firewalld"
+                    },
+                    {
+                        "name": "阻止IP",
+                        "func": "block_ip"
+                    }
+                ],
+                "app_dir": "firewalld",
+                "args": {
+                    "add_port_to_zone": [
+                        {
+                            "key": "host",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "port",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "user",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "passwd",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "target_port",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "zone",
+                            "type": "text",
+                            "required": true,
+                            "data": [
+                                "public",
+                                "external",
+                                "dmz",
+                                "work",
+                                "home",
+                                "internal",
+                                "trusted",
+                                "block",
+                                "drop"
+                            ]
+                        }
+                    ],
+                    "remove_port_from_zone": [
+                        {
+                            "key": "host",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "port",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "user",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "passwd",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "target_port",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "zone",
+                            "type": "text",
+                            "required": false,
+                            "data": [
+                                "public",
+                                "external",
+                                "dmz",
+                                "work",
+                                "home",
+                                "internal",
+                                "trusted",
+                                "block",
+                                "drop"
+                            ]
+                        }
+                    ],
+                    "reload_firewalld": [
+                        {
+                            "key": "host",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "port",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "user",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "passwd",
+                            "type": "text",
+                            "required": true
+                        }
+                    ],
+                    "block_ip": [
+                        {
+                            "key": "host",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "port",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "user",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "passwd",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "ip_address",
+                            "type": "text",
+                            "required": true
+                        }
+                    ]
+                },
+                "description": "一个管理防火墙规则的工具",
+                "icon": "firewalld/icon.png",
+                "identification": "w5soar",
+                "is_public": true,
+                "name": "firewalld_manager",
+                "type": "安全管理",
+                "version": "0.1",
+                "data": {
+                    "node_name": "firewalld_manager",
+                    "action": "block_ip",
+                    "action_name": "阻止IP",
+                    "description": "一个管理防火墙规则的工具",
+                    "host": "@(node4.result)",
+                    "port": "@(node4.result)",
+                    "user": "@(node4.result)",
+                    "passwd": "@(node4.result)",
+                    "ip_address": "@(node4.result)"
+                }
+            }
+        },
+        "node5": {
+            "app_id": "feishu",
+            "app_type": 1,
+            "information": {
+                "action": [
+                    {
+                        "name": "飞书通知",
+                        "func": "send"
+                    }
+                ],
+                "app_dir": "feishu",
+                "args": {
+                    "send": [
+                        {
+                            "key": "hook_uuid",
+                            "type": "text",
+                            "required": true
+                        },
+                        {
+                            "key": "msg",
+                            "type": "text",
+                            "required": true
+                        }
+                    ]
+                },
+                "description": "飞书消息通知",
+                "icon": "feishu/icon.png",
+                "identification": "w5soar",
+                "is_public": true,
+                "name": "飞书通知",
+                "type": "消息通知",
+                "version": "0.1",
+                "data": {
+                    "node_name": "飞书通知",
+                    "action": "send",
+                    "action_name": "飞书通知",
+                    "description": "飞书消息通知",
+                    "hook_uuid": "@(node5.result)",
+                    "msg": "@(node5.result)"
+                }
+            }
+        }
+    },
+    "edge_info": [
+        {
+            "source": {
+                "cell": "node1",
+                "port": "right"
+            },
+            "target": {
+                "cell": "node3",
+                "port": "left"
+            }
+        },
+        {
+            "source": {
+                "cell": "node3",
+                "port": "right"
+            },
+            "target": {
+                "cell": "node4",
+                "port": "left"
+            }
+        },
+        {
+            "source": {
+                "cell": "node4",
+                "port": "right"
+            },
+            "target": {
+                "cell": "node5",
+                "port": "left"
+            }
+        },
+        {
+            "source": {
+                "cell": "node5",
+                "port": "right"
+            },
+            "target": {
+                "cell": "node2",
+                "port": "left"
+            }
+        }
+    ],
+    "local_var_data": [],
+    "controller_data": {}
+}

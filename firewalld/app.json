@@ -1,0 +1,163 @@
+{
+  "identification": "w5soar",
+  "is_public": true,
+  "name": "firewalld_manager",
+  "version": "0.1",
+  "description": "一个管理防火墙规则的工具",
+  "type": "安全管理",
+  "action": [
+      {
+          "name": "添加端口到区域",
+          "func": "add_port_to_zone"
+      },
+      {
+          "name": "移除端口从区域",
+          "func": "remove_port_from_zone"
+      },
+      {
+          "name": "重新加载防火墙规则",
+          "func": "reload_firewalld"
+      },
+      {
+          "name": "阻止IP",
+          "func": "block_ip"
+      }
+  ],
+  "args": {
+      "add_port_to_zone": [
+        {
+            "key": "host",
+            "type": "text",
+            "required": true
+        },
+        {
+            "key": "port",
+            "type": "text",
+            "required": true
+        },
+        {
+            "key": "user",
+            "type": "text",
+            "required": true
+        },
+        {
+            "key": "passwd",
+            "type": "text",
+            "required": true
+        },
+          {
+              "key": "target_port",
+              "type": "text",
+              "required": true
+          },
+          {
+              "key": "zone",
+              "type": "text",
+              "required": true,
+              "data": [          
+                "public",
+                "external",
+                "dmz",
+                "work",
+                "home",
+                "internal",
+                "trusted",
+                "block",
+                "drop"
+            ]
+          }
+      ],
+      "remove_port_from_zone": [
+        {
+            "key": "host",
+            "type": "text",
+            "required": true
+        },
+        {
+            "key": "port",
+            "type": "text",
+            "required": true
+        },
+        {
+            "key": "user",
+            "type": "text",
+            "required": true
+        },
+        {
+            "key": "passwd",
+            "type": "text",
+            "required": true
+        },
+          {
+              "key": "target_port",
+              "type": "text",
+              "required": true
+          },
+          {
+              "key": "zone",
+              "type": "text",
+              "required": false,
+              "data": [          
+                "public",
+                "external",
+                "dmz",
+                "work",
+                "home",
+                "internal",
+                "trusted",
+                "block",
+                "drop"
+            ]
+          }
+      ],
+      "reload_firewalld": [
+        {
+            "key": "host",
+            "type": "text",
+            "required": true
+        },
+        {
+            "key": "port",
+            "type": "text",
+            "required": true
+        },
+        {
+            "key": "user",
+            "type": "text",
+            "required": true
+        },
+        {
+            "key": "passwd",
+            "type": "text",
+            "required": true
+        }
+      ],
+      "block_ip": [
+        {
+            "key": "host",
+            "type": "text",
+            "required": true
+        },
+        {
+            "key": "port",
+            "type": "text",
+            "required": true
+        },
+        {
+            "key": "user",
+            "type": "text",
+            "required": true
+        },
+        {
+            "key": "passwd",
+            "type": "text",
+            "required": true
+        },
+          {
+              "key": "ip_address",
+              "type": "text",
+              "required": true
+          }
+      ]
+  }
+}

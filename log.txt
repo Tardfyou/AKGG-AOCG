@@ -1,0 +1,16 @@
+2025-01-23 17:03:45,987 - INFO - ==================================================
+2025-01-23 17:03:45,987 - INFO - Starting directory monitor at 2025-01-23 17:03:45...
+2025-01-23 17:03:45,987 - INFO - Starting graph construction...
+2025-01-23 17:03:49,083 - INFO - Graph construction completed!
+2025-01-23 17:03:49,083 - INFO - Initial known files list built, initial file count: 3
+2025-01-23 17:04:56,508 - INFO - ==================================================
+2025-01-23 17:04:56,508 - INFO - Starting directory monitor at 2025-01-23 17:04:56...
+2025-01-23 17:04:56,508 - INFO - Starting graph construction...
+2025-01-23 17:04:57,717 - INFO - Graph construction completed!
+2025-01-23 17:04:57,717 - INFO - Initial known files list built, initial file count: 3
+2025-01-23 17:05:52,725 - INFO - File group2-prd.json has been deleted, removed from known files list.
+2025-01-23 17:06:02,726 - INFO - File group2.json has been deleted, removed from known files list.
+2025-01-23 17:06:12,727 - INFO - Detected new file: group2.json
+2025-01-23 17:06:13,151 - INFO - Processing of file group2.json complete, output updated.
+2025-01-23 17:06:13,152 - INFO - Renamed output_updated.json to group2-prd.json
+2025-01-23 17:06:13,152 - INFO - New generated file group2-prd.json skipped from further processing.

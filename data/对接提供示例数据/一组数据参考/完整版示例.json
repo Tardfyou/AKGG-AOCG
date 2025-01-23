@@ -1,0 +1,314 @@
+{
+    // 主体内容注释说明参考输入标准定义.md，未完全定义部分已添加额外注释
+	"name": "DDos应对剧本",
+    "remarks": "用于测试的示例",
+	// 一个组件调用一次就会有一个node，多次调用会有多个node，例如在剧本json中调用两次firewalld即flow_data部分有两个firewalld相关字段
+	// 一个组件的结果可以表示为“组件id.result”,例如node6的参数是node5的返回值，参数值可以写作@{node5.result}，这部分尚未标准定义，此描述仅供参考
+	// 实际的剧本文件中，flow_json部分只需要关注1.APP节点的data字段，表示图中节点是什么，其余字段是平台信息；2."shape": "w5Edge"的字段，表示边，且只关注该字段最后两个属性source和target。
+	// 实际的剧本文件中，flow_data部分是描述app的使用方法，可以发现该部分对节点的描述与此处node_info类似
+    "node_info": {
+        "node1": {
+            "app_id": "start",
+            "data": {
+                "name": "开始",
+                "icon": "/app/basic/start.png",
+                "action": ""
+            }
+        },
+        "node2": {
+            "app_id": "end",
+            "data": {
+                "name": "结束",
+                "icon": "/app/basic/end.png",
+                "action": ""
+            }
+        },
+        "node3": {
+            "app_id": "webhook",
+            "data": {
+                "name": "Webhook",
+                "icon": "/app/basic/webhook.png",
+                "action": "trigger_webhook"
+            }
+        },
+        "node4": {
+			// app_id仅供参考，第三组可以先自己定义
+            "app_id": "飞书",
+            "data": {
+                "action": [
+                {
+                    "func": "send",
+                    "name": "飞书通知"
+                }
+                ],
+            "app_dir": "feishu",
+            "args": {
+                "send": [
+					{
+						"key": "hook_uuid",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "msg",
+						"required": true,
+						"type": "text"
+					}
+				]
+            },
+			"description": "飞书消息通知",
+			"icon": "feishu/icon.png",
+			"identification": "w5soar",
+			"is_public": true,
+			"name": "飞书通知",
+			"type": "消息通知",
+			"version": "0.1",
+            }
+			// 以下data部分还未完全标准定义，但是需要这部分内容，示例格式仅供参考
+			"data": {
+				"node_name": "飞书通知",
+				"action": "send",
+				"hook_uuid": "19aef870-9a72-4c76-8542-2eb30bf29121",
+				"msg": "开始应对DDos攻击",
+				"action_name": "飞书通知",
+				"description": "飞书消息通知"
+			}
+        },
+		"node5": {
+            "app_id": "suricata",
+            "data": {
+                "action": [
+                {
+                    "func": "process_logs",
+                    "name": "日志处理"
+                }
+                ],
+            "app_dir": "suricata",
+            "args": {
+               "process_logs": [
+					{
+						"key": "log_type",
+						"required": true,
+						"type": "text"
+					}
+				]
+            },
+			"description": "",
+			"icon": "suricata/icon.png",
+			"identification": "w5soar",
+			"is_public": true,
+			"name": "suricata",
+			"type": "ids",
+			"version": "0.1"
+            }
+			// 在DDos应对剧本.json中，suricata组件没有设置执行功能，因此在剧本json中没有data部分	
+            // 如果执行了功能函数，会有如下示例的data部分，供参考。即未完全定义的data部分是描述组件功能函数参数的 			
+			"data": {
+				"node_name": "suricata",
+				"action": "process_logs",
+				"log_type": "alert",
+				"action_name": "日志处理",
+				"description": ""
+			}
+        },
+        "node6": {
+            "app_id": "firewalld",
+            "data": {
+                "action": [
+				{
+					"func": "add_port_to_zone",
+					"name": "添加端口到区域"
+				},
+				{
+					"func": "remove_port_from_zone",
+					"name": "移除端口从区域"
+				},
+				{
+					"func": "reload_firewalld",
+					"name": "重新加载防火墙规则"
+				},
+				{
+					"func": "block_ip",
+					"name": "阻止IP"
+				}
+			    ],
+            "app_dir": "firewalld",
+            "args": {
+               "add_port_to_zone": [
+					{
+						"key": "host",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "port",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "user",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "passwd",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "target_port",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"data": [
+							"public",
+							"external",
+							"dmz",
+							"work",
+							"home",
+							"internal",
+							"trusted",
+							"block",
+							"drop"
+						],
+						"key": "zone",
+						"required": true,
+						"type": "text"
+					}
+				],
+				"block_ip": [
+					{
+						"key": "host",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "port",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "user",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "passwd",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "ip_address",
+						"required": true,
+						"type": "text"
+					}
+				],
+				"reload_firewalld": [
+					{
+						"key": "host",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "port",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "user",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "passwd",
+						"required": true,
+						"type": "text"
+					}
+				],
+				"remove_port_from_zone": [
+					{
+						"key": "host",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "port",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "user",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "passwd",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"key": "target_port",
+						"required": true,
+						"type": "text"
+					},
+					{
+						"data": [
+							"public",
+							"external",
+							"dmz",
+							"work",
+							"home",
+							"internal",
+							"trusted",
+							"block",
+							"drop"
+						],
+						"key": "zone",
+						"required": false,
+						"type": "text"
+					}
+				]
+            },
+			"description": "一个管理防火墙规则的工具",
+			"icon": "firewalld/icon.png",
+			"identification": "w5soar",
+			"is_public": true,
+			"name": "firewalld_manager",
+			"type": "安全管理",
+			"version": "0.1"
+            }
+			// 在DDos应对剧本.json中，firewalld组件没有设置执行功能，因此在剧本json中没有data部分	
+        },
+
+    }
+	// 剧本：开始->webhook->飞书通知->suricata->firewalld->结束
+	// 共5边6节点
+    "edge_info": [
+        {
+            "source": {"cell": "node1", "port": "right"},
+            "target": {"cell": "node3", "port": "left"}
+        },
+        {
+            "source": {"cell": "node3", "port": "right"},
+            "target": {"cell": "node4", "port": "left"}
+        },
+        {
+            "source": {"cell": "node4", "port": "right"},
+            "target": {"cell": "node5", "port": "left"}
+        },
+        {
+            "source": {"cell": "node5", "port": "right"},
+            "target": {"cell": "node6", "port": "left"}
+        },
+        {
+            "source": {"cell": "node6", "port": "right"},
+            "target": {"cell": "node2", "port": "left"}
+        }
+    ],
+	// 该剧本没有变量和控制器
+    "local_var_data": [
+    ],
+    "controller_data": {
+    }
+}

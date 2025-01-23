@@ -1,0 +1,60 @@
+{
+    "IncidentId": "677e9df2-91d8-4dab-82be-e49f3e310409",
+    "IncidentName": "DDOS_attack",
+    "StartTime": "2024-12-26T14:30:00Z",
+    "EndTime": "2024-12-26T14:40:00Z",
+    "AttackType": "DDOS",
+    "SourceIp": "198.51.100.1",
+    "DestinationIp": "198.51.100.200",
+    "Confidence": 88,
+    "Description": "Detected a DDoS attack originating from IP 192.168.2.16, targeting multiple destinations with a horizontal port scan on port 23/TCP.",
+    "ThreatLevel": "Critical",
+    "SourcePort": "80",
+    "DestinationPort": "23",
+    "Alerts": [ 
+        {
+            "AlertID": "alert-001",
+            "RuleID": "Rule-001",
+            "Type": "DDoS",
+            "Description": "Initial detection of abnormal traffic volume from 198.51.100.1.",
+            "Timestamp": "2024-07-17T09:20:34.249250+00:00",
+            "Source": {
+                "IP4": "198.51.100.1",
+                "Port": "80"
+            },
+            "Destination": {
+                "IP4": "198.51.100.200",
+                "Port": "23"
+            },
+            "Proto": "TCP"
+        },
+        {
+            "AlertID": "alert-002",
+            "RuleID": "Rule-002",
+            "Type": "DDoS",
+            "Description": "Initial detection of abnormal traffic volume from 192.168.2.16.",
+            "Timestamp": "2024-07-17T09:20:34.249250+00:00",
+            "Source": {
+                "IP4": "198.51.100.1",
+                "Port": "80"
+            },
+            "Destination": {
+                "IP4": "198.51.100.200",
+                "Port": "23"
+            },
+            "Proto": "TCP"
+        }
+    ],
+    "Logs": [ 
+        {
+            "LogID": "log-001",
+            "Entry": "Traffic spike detected from IP 192.168.2.16 on port 23 at initial stages of the attack.",
+            "Timestamp": "2024-07-17T09:20:34.249250+00:00"
+        },
+        {
+            "LogID": "log-002",
+            "Entry": "DDoS activity confirmed, significant increase in traffic from IP 192.168.2.16 during the event.",
+            "Timestamp": "2024-07-17T09:25:34.249250+00:00"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "name": "复杂测试剧本",
+    "remarks": "用于测试所有词条的输入数据",
+    "node_info": {
+        "node1": {
+            "app_id": "start",
+            "app_type" : 0
+        },
+        "node2": {
+            "app_id": "end",
+            "app_type": 0
+        },
+        "node3": {
+            "app_id": "查询",
+            "app_type": 1,
+            "information": {
+                "action": [
+                {
+                    "func": "is_ioc",
+                    "name": "ioc判断"
+                }
+                ],
+                "app_dir": "otx",
+                "args": {
+                    "is_ioc": [
+                    {
+                        "key": "api_key",
+                        "required": True,
+                        "type": "text"
+                    },
+                    {
+                        "key": "pulse_id",
+                        "required": True,
+                        "type": "text"
+                    },
+                    {
+                        "key": "ioc",
+                        "required": True,
+                        "type": "text"
+                    }
+                    ]
+                },
+                "description": "国外 Alienvault OTX 威胁情报",
+                "icon": "otx/icon.png",
+                "identification": "w5soar",
+                "is_public": True,
+                "name": "OTX威胁情报",
+                "type": "信息查询",
+                "version": "0.1",
+                "data": {
+                    "node_name": "OTX威胁情报",
+                    "action": "is_ioc",
+                    "api_key": "nokey",
+                    "pulse_id": "noid",
+                    "ioc": "@(node4.result)",
+                    "action_name": "ioc判断",
+                    "description": "国外 Alienvault OTX 威胁情报"
+                }
+            },
+        },
+        "node4":{
+            "app_id": "input",
+            "app_type": 0
+        }
+    },
+        "edge_info": [
+            {
+                "source": {"cell": "node1", "port": "right"},
+                "target": {"cell": "node4", "port": "left"}
+            },
+            {
+                "source": {"cell": "node4", "port": "right"},
+                "target": {"cell": "node3", "port": "left"}
+            },
+            {
+                "source": {"cell": "node3", "port": "right"},
+                "target": {"cell": "node2", "port": "left"}
+           }
+        ],
+        "local_var_data": [
+            {"key": "var1", "value": 1, "remarks": "示例变量1"},
+            {"key": "var2", "value": 2, "remarks": "示例变量2"}
+        ],   
+}

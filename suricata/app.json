@@ -1,0 +1,23 @@
+{
+    "identification": "w5soar",
+    "is_public": true,
+    "name": "suricata",
+    "version": "0.1",
+    "description": "",
+    "type": "ids",
+    "action": [
+      {
+        "name": "日志处理",
+        "func": "process_logs"
+      }
+    ],
+    "args": {
+      "process_logs": [
+        {
+          "key": "log_type",
+          "type": "text",
+          "required": true
+        }
+      ]
+    }
+  }
