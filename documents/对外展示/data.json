@@ -1,0 +1,93 @@
+[
+  {
+      "event_name": "Unauthorized Access Attempt",
+      "maintenance_method": "Intrusion Detection System, Firewall Configuration",
+      "check_item": "Access Logs Review, Firewall Rule Review",
+      "device_software_id": "IDS-1.0, FW-2.5",
+      "vendor_name": "Vendor A, Vendor B",
+      "harm_name": "Data Breach, System Compromise",
+      "description": "An unauthorized access attempt was detected on the network.",
+      "prevention_measures": "Implement strong password policies, enable two-factor authentication.",
+      "attack_cause": "Weak user credentials, Lack of network segmentation.",
+      "defective_device_software": "IDS-1.0",
+      "configuration_solution": "1. Increase password length to 12 characters. 2. Enable account lockout after 3 failed attempts."
+  },
+  {
+      "event_name": "Malware Infection Detected",
+      "maintenance_method": "Antivirus Update, Network Segmentation",
+      "check_item": "Malware Scan, Network Traffic Analysis",
+      "device_software_id": "AV-3.2, NS-4.0",
+      "vendor_name": "Vendor C",
+      "harm_name": "Data Loss, System Downtime",
+      "description": "A malware infection was detected on a server.",
+      "prevention_measures": "Regular software updates, employee training on phishing attacks.",
+      "attack_cause": "Malicious email attachment opened.",
+      "defective_device_software": "AV-3.2",
+      "configuration_solution": "1. Isolate infected machine from the network. 2. Perform a full malware scan."
+  },
+  {
+      "event_name": "Phishing Email Reported",
+      "maintenance_method": "Email Filtering, User Awareness Training",
+      "check_item": "Email Header Analysis, Spam Filter Review",
+      "device_software_id": "EF-1.1, UF-2.0",
+      "vendor_name": "Vendor D, Vendor E",
+      "harm_name": "Credential Theft, Financial Loss",
+      "description": "A user reported a phishing email attempting to steal credentials.",
+      "prevention_measures": "Implement email filtering rules, conduct regular training sessions.",
+      "attack_cause": "User clicked on a malicious link in the email.",
+      "defective_device_software": "EF-1.1",
+      "configuration_solution": "1. Block sender domain in email filter. 2. Notify users to change passwords."
+  },
+  {
+    "event_name": "数据泄露",
+    "maintenance_method": "数据加密, 访问控制",
+    "check_item": "访问日志审核, 权限检查",
+    "device_software_id": "DLP-1.0, AC-2.5",
+    "vendor_name": "Vendor F, Vendor G",
+    "harm_name": "敏感信息泄露, 法律责任",
+    "description": "检测到敏感数据被未经授权的用户访问。",
+    "prevention_measures": "实施数据加密，定期更新访问权限。",
+    "attack_cause": "内部人员失误，安全策略不完善。",
+    "defective_device_software": "DLP-1.0",
+    "configuration_solution": "1. 加强数据访问审核。 2. 定期评估数据保护措施。"
+  },
+  {
+    "event_name": "拒绝服务攻击",
+    "maintenance_method": "流量监控, 网络隔离",
+    "check_item": "流量分析, 服务器健康检查",
+    "device_software_id": "DDoS-2.1, FW-3.0",
+    "vendor_name": "Vendor H",
+    "harm_name": "系统瘫痪, 服务中断",
+    "description": "发现针对网站的拒绝服务攻击，导致服务不可用。",
+    "prevention_measures": "部署流量清洗服务，优化服务器配置。",
+    "attack_cause": "攻击者利用网络漏洞发起攻击。",
+    "defective_device_software": "FW-3.0",
+    "configuration_solution": "1. 增加带宽，提升服务抗压能力。 2. 启用防火墙规则。"
+  },
+  {
+    "event_name": "恶意软件感染",
+    "maintenance_method": "实时监控, 定期扫描",
+    "check_item": "病毒库更新, 安全补丁检查",
+    "device_software_id": "AV-4.0, NS-2.2",
+    "vendor_name": "Vendor I",
+    "harm_name": "数据损失, 系统崩溃",
+    "description": "在员工的计算机上发现了恶意软件感染。",
+    "prevention_measures": "定期进行安全培训，确保软件及时更新。",
+    "attack_cause": "用户打开了带病毒的文件。",
+    "defective_device_software": "AV-4.0",
+    "configuration_solution": "1. 隔离受感染的设备。 2. 执行全面的病毒扫描。"
+  },
+  {
+    "event_name": "网络钓鱼攻击",
+    "maintenance_method": "用户教育, 邮件过滤",
+    "check_item": "邮件来源验证, 钓鱼邮件报告",
+    "device_software_id": "EF-2.0, UF-1.5",
+    "vendor_name": "Vendor J, Vendor K",
+    "harm_name": "账号被盗, 财务损失",
+    "description": "用户报告收到钓鱼邮件，试图盗取其凭证。",
+    "prevention_measures": "实施强制邮件过滤规则，进行定期的安全培训。",
+    "attack_cause": "用户点击了邮件中的恶意链接。",
+    "defective_device_software": "EF-2.0",
+    "configuration_solution": "1. 在邮件过滤器中屏蔽可疑发件人。 2. 通知用户更改密码。"
+  }
+]

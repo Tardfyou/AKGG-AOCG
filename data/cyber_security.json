@@ -167,45 +167,6 @@
     "attack_cause": "由僵尸网络设备生成的过量流量攻击目标网络。",
     "defective_device_software": "FW-3.5",
     "configuration_solution": "DDOS->开始->suricata 日志处理->firewalld 阻止IP->feishu 飞书通知->结束"
-  },
-  {
-    "event_name": "Web服务器DDoS攻击",
-    "maintenance_method": "Web应用防火墙, 负载均衡",
-    "check_item": "Web服务器日志, 负载均衡器指标",
-    "device_software_id": "WAF-4.0, LB-2.0",
-    "vendor_name": "Vendor Z",
-    "harm_name": "网站停机, 服务不可用",
-    "description": "针对Web服务器的DDoS攻击，导致服务中断和停机。",
-    "prevention_measures": "使用负载均衡分配流量，应用Web应用防火墙（WAF）过滤恶意请求。",
-    "attack_cause": "僵尸网络流量通过大量HTTP请求攻击Web应用。",
-    "defective_device_software": "WAF-4.0",
-    "configuration_solution": "1. 使用负载均衡缓解服务器过载。 2. 启用WAF规则阻止DDoS流量并过滤恶意请求。"
-  },
-  {
-    "event_name": "DDoS洪水攻击",
-    "maintenance_method": "流量过滤, 入侵防御系统",
-    "check_item": "流量日志, IPS警报",
-    "device_software_id": "IPS-2.0, FW-3.0",
-    "vendor_name": "Vendor W, Vendor V",
-    "harm_name": "网络中断, 服务中断",
-    "description": "检测到网络上的大量流量来自多个源，属于DDoS洪水攻击。",
-    "prevention_measures": "部署入侵防御系统（IPS）阻止洪水流量，配置网络设备的流量过滤。",
-    "attack_cause": "攻击者使用大规模僵尸网络生成大量流量。",
-    "defective_device_software": "IPS-2.0",
-    "configuration_solution": "1. 实施流量过滤以拒绝恶意请求。 2. 配置IPS检测并阻止DDoS洪水流量。"
-  },
-  {
-    "event_name": "DDoS放大攻击",
-    "maintenance_method": "流量异常检测, 防DDoS服务",
-    "check_item": "异常检测日志, DDoS服务指标",
-    "device_software_id": "DDoS-4.0, FW-4.0",
-    "vendor_name": "Vendor U",
-    "harm_name": "网络饱和, 服务降级",
-    "description": "检测到放大DDoS攻击，攻击者利用外部服务器放大流量并定向攻击目标。",
-    "prevention_measures": "启用异常检测识别流量激增，利用防DDoS服务缓解攻击。",
-    "attack_cause": "攻击者利用DNS放大攻击放大流量，目标是受害网络。",
-    "defective_device_software": "DDoS-4.0",
-    "configuration_solution": "1. 启用异常检测识别异常流量模式。 2. 启动防DDoS服务缓解放大攻击。"
   }
   
 ]

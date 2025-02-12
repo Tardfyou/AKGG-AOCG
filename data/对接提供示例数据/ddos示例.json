@@ -26,14 +26,14 @@
                             {
                                 "key": "log_type",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             }
                         ]
                     },
                     "description": "",
                     "icon": "suricata/icon.png",
                     "identification": "w5soar",
-                    "is_public": True,
+                    "is_public": true,
                     "name": "suricata",
                     "type": "ids",
                     "version": "0.1",
@@ -74,32 +74,32 @@
                             {
                                 "key": "host",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "port",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "user",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "passwd",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "target_port",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "zone",
                                 "type": "text",
-                                "required": True,
+                                "required": true,
                                 "data": [
                                     "public",
                                     "external",
@@ -117,27 +117,27 @@
                             {
                                 "key": "host",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "port",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "user",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "passwd",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "target_port",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "zone",
@@ -160,56 +160,56 @@
                             {
                                 "key": "host",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "port",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "user",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "passwd",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             }
                         ],
                         "block_ip": [
                             {
                                 "key": "host",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "port",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "user",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "passwd",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "ip_address",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             }
                         ]
                     },
                     "description": "一个管理防火墙规则的工具",
                     "icon": "firewalld/icon.png",
                     "identification": "w5soar",
-                    "is_public": True,
+                    "is_public": true,
                     "name": "firewalld_manager",
                     "type": "安全管理",
                     "version": "0.1",
@@ -242,19 +242,19 @@
                             {
                                 "key": "hook_uuid",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             },
                             {
                                 "key": "msg",
                                 "type": "text",
-                                "required": True
+                                "required": true
                             }
                         ]
                     },
                     "description": "飞书消息通知",
                     "icon": "feishu/icon.png",
                     "identification": "w5soar",
-                    "is_public": True,
+                    "is_public": true,
                     "name": "飞书通知",
                     "type": "消息通知",
                     "version": "0.1",

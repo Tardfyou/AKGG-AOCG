@@ -20,9 +20,12 @@ logging.basicConfig(
 )
 
 # Monitor directory and file extension
-MONITOR_DIR = "./"  # Monitor the current directory, or adjust the path as needed
+MONITOR_DIR = "./input"  # Monitor the current directory, or adjust the path as needed
 FILE_EXTENSION = ".json"
 IGNORED_FILES = {"output.json", "output_updated.json"}  # Files to be ignored
+
+# Output directory for the final -prd.json files
+OUTPUT_DIR = "./output"  # Set the desired output directory for final files
 
 # Control whether to enable the graph building feature
 ENABLE_GRAPH_BUILDING = True  # Set to False to disable the graph building feature
@@ -39,14 +42,21 @@ def build_graph():
         return False  # Graph construction failed
 
 def rename_output_file(original_filename):
-    """Rename output_updated.json to <original filename>-prd.json."""
+    """Rename output_updated.json to <original filename>-prd.json and move to OUTPUT_DIR."""
     output_file = "output_updated.json"
     if os.path.exists(output_file):
         # Remove the extension from the processed filename and add the -prd suffix
         new_filename = f"{os.path.splitext(original_filename)[0]}-prd.json"
-        shutil.move(output_file, new_filename)  # Rename the file
-        logging.info(f"Renamed {output_file} to {new_filename}")
-        return new_filename
+        
+        # Ensure the output directory exists
+        if not os.path.exists(OUTPUT_DIR):
+            os.makedirs(OUTPUT_DIR)
+
+        # Move the file to the output directory
+        new_file_path = os.path.join(OUTPUT_DIR, new_filename)
+        shutil.move(output_file, new_file_path)  # Rename and move the file
+        logging.info(f"Renamed and moved {output_file} to {new_file_path}")
+        return new_file_path
     return None
 
 def monitor_directory():
@@ -118,8 +128,7 @@ def monitor_directory():
 
                 # Use the output from exchange.py as input for insert.py
                 insert_result = subprocess.run(
-                    [sys.executable, "insert.py"],
-                    input=exchange_result.stdout,
+                    [sys.executable, "insert.py", file_path],  # Pass the file path to insert.py
                     capture_output=True,
                     text=True
                 )
@@ -131,7 +140,7 @@ def monitor_directory():
                 print(f"处理文件 {filename} 完成，输出已更新.")
                 logging.info(f"Processing of file {filename} complete, output updated.")
 
-                # Rename output_updated.json file to <processed filename>-prd.json
+                # Rename output_updated.json file to <processed filename>-prd.json and move to OUTPUT_DIR
                 renamed_file = rename_output_file(filename)
                 if renamed_file:
                     # Skip further processing for the renamed file

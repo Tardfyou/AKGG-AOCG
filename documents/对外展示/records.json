@@ -1,0 +1,5450 @@
+﻿[
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor I"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:23"
+    },
+    "r": {
+      "identity": 0,
+      "start": 23,
+      "end": 10,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:0",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:23",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:10"
+    },
+    "m": {
+      "identity": 10,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "AV-4.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:10"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor I"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:23"
+    },
+    "r": {
+      "identity": 1,
+      "start": 23,
+      "end": 18,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:1",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:23",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:18"
+    },
+    "m": {
+      "identity": 18,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "NS-2.2"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:18"
+    }
+  },
+  {
+    "n": {
+      "identity": 27,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor J"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:27"
+    },
+    "r": {
+      "identity": 2,
+      "start": 27,
+      "end": 11,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:2",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:27",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:11"
+    },
+    "m": {
+      "identity": 11,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "EF-2.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 27,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor J"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:27"
+    },
+    "r": {
+      "identity": 3,
+      "start": 27,
+      "end": 20,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:3",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:27",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:20"
+    },
+    "m": {
+      "identity": 20,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "UF-1.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:20"
+    }
+  },
+  {
+    "n": {
+      "identity": 30,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor K"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:30"
+    },
+    "r": {
+      "identity": 4,
+      "start": 30,
+      "end": 11,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:4",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:30",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:11"
+    },
+    "m": {
+      "identity": 11,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "EF-2.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 30,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor K"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:30"
+    },
+    "r": {
+      "identity": 5,
+      "start": 30,
+      "end": 20,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:5",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:30",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:20"
+    },
+    "m": {
+      "identity": 20,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "UF-1.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:20"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor A"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:28"
+    },
+    "r": {
+      "identity": 6,
+      "start": 28,
+      "end": 17,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:6",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:28",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "VPN-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor A"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:28"
+    },
+    "r": {
+      "identity": 7,
+      "start": 28,
+      "end": 5,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:7",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:28",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor B"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:26"
+    },
+    "r": {
+      "identity": 8,
+      "start": 26,
+      "end": 17,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:8",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:26",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "VPN-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor B"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:26"
+    },
+    "r": {
+      "identity": 9,
+      "start": 26,
+      "end": 5,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:9",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:26",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 29,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor C"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:29"
+    },
+    "r": {
+      "identity": 10,
+      "start": 29,
+      "end": 13,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:10",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:29",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:13"
+    },
+    "m": {
+      "identity": 13,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "WAF-3.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:13"
+    }
+  },
+  {
+    "n": {
+      "identity": 29,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor C"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:29"
+    },
+    "r": {
+      "identity": 11,
+      "start": 29,
+      "end": 5,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:11",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:29",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor B"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:26"
+    },
+    "r": {
+      "identity": 12,
+      "start": 26,
+      "end": 13,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:12",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:26",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:13"
+    },
+    "m": {
+      "identity": 13,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "WAF-3.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:13"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor B"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:26"
+    },
+    "r": {
+      "identity": 13,
+      "start": 26,
+      "end": 5,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:13",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:26",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 32,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor D"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:32"
+    },
+    "r": {
+      "identity": 14,
+      "start": 32,
+      "end": 16,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:14",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:32",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:16"
+    },
+    "m": {
+      "identity": 16,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "SIEM-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:16"
+    }
+  },
+  {
+    "n": {
+      "identity": 32,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor D"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:32"
+    },
+    "r": {
+      "identity": 15,
+      "start": 32,
+      "end": 17,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:15",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:32",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "VPN-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor A"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:28"
+    },
+    "r": {
+      "identity": 16,
+      "start": 28,
+      "end": 16,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:16",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:28",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:16"
+    },
+    "m": {
+      "identity": 16,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "SIEM-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:16"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor A"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:28"
+    },
+    "r": {
+      "identity": 17,
+      "start": 28,
+      "end": 17,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:17",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:28",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "VPN-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 31,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor E"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:31"
+    },
+    "r": {
+      "identity": 18,
+      "start": 31,
+      "end": 14,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:18",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:31",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:14"
+    },
+    "m": {
+      "identity": 14,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FS-2.1"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:14"
+    }
+  },
+  {
+    "n": {
+      "identity": 31,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor E"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:31"
+    },
+    "r": {
+      "identity": 19,
+      "start": 31,
+      "end": 17,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:19",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:31",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "VPN-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor A"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:28"
+    },
+    "r": {
+      "identity": 20,
+      "start": 28,
+      "end": 14,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:20",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:28",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:14"
+    },
+    "m": {
+      "identity": 14,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FS-2.1"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:14"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor A"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:28"
+    },
+    "r": {
+      "identity": 21,
+      "start": 28,
+      "end": 17,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:21",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:28",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "VPN-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor A"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:28"
+    },
+    "r": {
+      "identity": 22,
+      "start": 28,
+      "end": 7,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:22",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:28",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:7"
+    },
+    "m": {
+      "identity": 7,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "IDS-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor A"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:28"
+    },
+    "r": {
+      "identity": 23,
+      "start": 28,
+      "end": 5,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:23",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:28",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor B"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:26"
+    },
+    "r": {
+      "identity": 24,
+      "start": 26,
+      "end": 7,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:24",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:26",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:7"
+    },
+    "m": {
+      "identity": 7,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "IDS-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor B"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:26"
+    },
+    "r": {
+      "identity": 25,
+      "start": 26,
+      "end": 5,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:25",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:26",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 82,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Increase password length to 12 characters. 2. Enable account lockout after 3 failed attempts.",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "Unauthorized Access Attempt",
+        "attack_reason": "Weak user credentials, Lack of network segmentation.",
+        "description": "An unauthorized access attempt was detected on the network.",
+        "preventive_measures": "Implement strong password policies, enable two-factor authentication."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:82"
+    },
+    "r": {
+      "identity": 26,
+      "start": 82,
+      "end": 114,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:26",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:82",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:114"
+    },
+    "m": {
+      "identity": 114,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "Access Logs Review"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:114"
+    }
+  },
+  {
+    "n": {
+      "identity": 82,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Increase password length to 12 characters. 2. Enable account lockout after 3 failed attempts.",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "Unauthorized Access Attempt",
+        "attack_reason": "Weak user credentials, Lack of network segmentation.",
+        "description": "An unauthorized access attempt was detected on the network.",
+        "preventive_measures": "Implement strong password policies, enable two-factor authentication."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:82"
+    },
+    "r": {
+      "identity": 27,
+      "start": 82,
+      "end": 112,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:27",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:82",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:112"
+    },
+    "m": {
+      "identity": 112,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "Firewall Rule Review"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:112"
+    }
+  },
+  {
+    "n": {
+      "identity": 79,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Isolate infected machine from the network. 2. Perform a full malware scan.",
+        "defective_software": "AV-3.2",
+        "color": "red",
+        "name": "Malware Infection Detected",
+        "attack_reason": "Malicious email attachment opened.",
+        "description": "A malware infection was detected on a server.",
+        "preventive_measures": "Regular software updates, employee training on phishing attacks."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:79"
+    },
+    "r": {
+      "identity": 28,
+      "start": 79,
+      "end": 110,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:28",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:79",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:110"
+    },
+    "m": {
+      "identity": 110,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "Malware Scan"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:110"
+    }
+  },
+  {
+    "n": {
+      "identity": 79,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Isolate infected machine from the network. 2. Perform a full malware scan.",
+        "defective_software": "AV-3.2",
+        "color": "red",
+        "name": "Malware Infection Detected",
+        "attack_reason": "Malicious email attachment opened.",
+        "description": "A malware infection was detected on a server.",
+        "preventive_measures": "Regular software updates, employee training on phishing attacks."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:79"
+    },
+    "r": {
+      "identity": 29,
+      "start": 79,
+      "end": 124,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:29",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:79",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:124"
+    },
+    "m": {
+      "identity": 124,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "Network Traffic Analysis"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:124"
+    }
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Block sender domain in email filter. 2. Notify users to change passwords.",
+        "defective_software": "EF-1.1",
+        "color": "red",
+        "name": "Phishing Email Reported",
+        "attack_reason": "User clicked on a malicious link in the email.",
+        "description": "A user reported a phishing email attempting to steal credentials.",
+        "preventive_measures": "Implement email filtering rules, conduct regular training sessions."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:85"
+    },
+    "r": {
+      "identity": 30,
+      "start": 85,
+      "end": 4,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:30",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:85",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:4"
+    },
+    "m": {
+      "identity": 4,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "Email Header Analysis"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:4"
+    }
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Block sender domain in email filter. 2. Notify users to change passwords.",
+        "defective_software": "EF-1.1",
+        "color": "red",
+        "name": "Phishing Email Reported",
+        "attack_reason": "User clicked on a malicious link in the email.",
+        "description": "A user reported a phishing email attempting to steal credentials.",
+        "preventive_measures": "Implement email filtering rules, conduct regular training sessions."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:85"
+    },
+    "r": {
+      "identity": 31,
+      "start": 85,
+      "end": 122,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:31",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:85",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:122"
+    },
+    "m": {
+      "identity": 122,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "Spam Filter Review"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:122"
+    }
+  },
+  {
+    "n": {
+      "identity": 83,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 加强数据访问审核。 2. 定期评估数据保护措施。",
+        "defective_software": "DLP-1.0",
+        "color": "red",
+        "name": "数据泄露",
+        "attack_reason": "内部人员失误，安全策略不完善。",
+        "description": "检测到敏感数据被未经授权的用户访问。",
+        "preventive_measures": "实施数据加密，定期更新访问权限。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:83"
+    },
+    "r": {
+      "identity": 32,
+      "start": 83,
+      "end": 115,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:32",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:83",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:115"
+    },
+    "m": {
+      "identity": 115,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "访问日志审核"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:115"
+    }
+  },
+  {
+    "n": {
+      "identity": 83,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 加强数据访问审核。 2. 定期评估数据保护措施。",
+        "defective_software": "DLP-1.0",
+        "color": "red",
+        "name": "数据泄露",
+        "attack_reason": "内部人员失误，安全策略不完善。",
+        "description": "检测到敏感数据被未经授权的用户访问。",
+        "preventive_measures": "实施数据加密，定期更新访问权限。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:83"
+    },
+    "r": {
+      "identity": 33,
+      "start": 83,
+      "end": 1,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:33",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:83",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:1"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "权限检查"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 75,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 增加带宽，提升服务抗压能力。 2. 启用防火墙规则。",
+        "defective_software": "FW-3.0",
+        "color": "red",
+        "name": "拒绝服务攻击",
+        "attack_reason": "攻击者利用网络漏洞发起攻击。",
+        "description": "发现针对网站的拒绝服务攻击，导致服务不可用。",
+        "preventive_measures": "部署流量清洗服务，优化服务器配置。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:75"
+    },
+    "r": {
+      "identity": 34,
+      "start": 75,
+      "end": 118,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:34",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:75",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:118"
+    },
+    "m": {
+      "identity": 118,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "流量分析"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:118"
+    }
+  },
+  {
+    "n": {
+      "identity": 75,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 增加带宽，提升服务抗压能力。 2. 启用防火墙规则。",
+        "defective_software": "FW-3.0",
+        "color": "red",
+        "name": "拒绝服务攻击",
+        "attack_reason": "攻击者利用网络漏洞发起攻击。",
+        "description": "发现针对网站的拒绝服务攻击，导致服务不可用。",
+        "preventive_measures": "部署流量清洗服务，优化服务器配置。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:75"
+    },
+    "r": {
+      "identity": 35,
+      "start": 75,
+      "end": 123,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:35",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:75",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:123"
+    },
+    "m": {
+      "identity": 123,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "服务器健康检查"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:123"
+    }
+  },
+  {
+    "n": {
+      "identity": 78,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 隔离受感染的设备。 2. 执行全面的病毒扫描。",
+        "defective_software": "AV-4.0",
+        "color": "red",
+        "name": "恶意软件感染",
+        "attack_reason": "用户打开了带病毒的文件。",
+        "description": "在员工的计算机上发现了恶意软件感染。",
+        "preventive_measures": "定期进行安全培训，确保软件及时更新。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:78"
+    },
+    "r": {
+      "identity": 36,
+      "start": 78,
+      "end": 120,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:36",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:78",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:120"
+    },
+    "m": {
+      "identity": 120,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "病毒库更新"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:120"
+    }
+  },
+  {
+    "n": {
+      "identity": 78,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 隔离受感染的设备。 2. 执行全面的病毒扫描。",
+        "defective_software": "AV-4.0",
+        "color": "red",
+        "name": "恶意软件感染",
+        "attack_reason": "用户打开了带病毒的文件。",
+        "description": "在员工的计算机上发现了恶意软件感染。",
+        "preventive_measures": "定期进行安全培训，确保软件及时更新。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:78"
+    },
+    "r": {
+      "identity": 37,
+      "start": 78,
+      "end": 127,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:37",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:78",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:127"
+    },
+    "m": {
+      "identity": 127,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "安全补丁检查"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:127"
+    }
+  },
+  {
+    "n": {
+      "identity": 84,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在邮件过滤器中屏蔽可疑发件人。 2. 通知用户更改密码。",
+        "defective_software": "EF-2.0",
+        "color": "red",
+        "name": "网络钓鱼攻击",
+        "attack_reason": "用户点击了邮件中的恶意链接。",
+        "description": "用户报告收到钓鱼邮件，试图盗取其凭证。",
+        "preventive_measures": "实施强制邮件过滤规则，进行定期的安全培训。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:84"
+    },
+    "r": {
+      "identity": 38,
+      "start": 84,
+      "end": 113,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:38",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:84",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:113"
+    },
+    "m": {
+      "identity": 113,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "邮件来源验证"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:113"
+    }
+  },
+  {
+    "n": {
+      "identity": 84,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在邮件过滤器中屏蔽可疑发件人。 2. 通知用户更改密码。",
+        "defective_software": "EF-2.0",
+        "color": "red",
+        "name": "网络钓鱼攻击",
+        "attack_reason": "用户点击了邮件中的恶意链接。",
+        "description": "用户报告收到钓鱼邮件，试图盗取其凭证。",
+        "preventive_measures": "实施强制邮件过滤规则，进行定期的安全培训。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:84"
+    },
+    "r": {
+      "identity": 39,
+      "start": 84,
+      "end": 109,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:39",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:84",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:109"
+    },
+    "m": {
+      "identity": 109,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "钓鱼邮件报告"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:109"
+    }
+  },
+  {
+    "n": {
+      "identity": 76,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 确保VPN使用强加密协议（如AES-256）。 2. 在防火墙中只开放VPN所需的端口，屏蔽其他非必要端口。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN配置异常",
+        "attack_reason": "配置错误导致VPN连接不稳定，且开放端口缺乏限制。",
+        "description": "检测到VPN配置异常，部分用户未能成功连接。",
+        "preventive_measures": "确保VPN服务器配置准确，限制未授权用户的访问。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:76"
+    },
+    "r": {
+      "identity": 40,
+      "start": 76,
+      "end": 126,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:40",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:76",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:126"
+    },
+    "m": {
+      "identity": 126,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "VPN连接日志检查"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:126"
+    }
+  },
+  {
+    "n": {
+      "identity": 76,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 确保VPN使用强加密协议（如AES-256）。 2. 在防火墙中只开放VPN所需的端口，屏蔽其他非必要端口。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN配置异常",
+        "attack_reason": "配置错误导致VPN连接不稳定，且开放端口缺乏限制。",
+        "description": "检测到VPN配置异常，部分用户未能成功连接。",
+        "preventive_measures": "确保VPN服务器配置准确，限制未授权用户的访问。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:76"
+    },
+    "r": {
+      "identity": 41,
+      "start": 76,
+      "end": 116,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:41",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:76",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:116"
+    },
+    "m": {
+      "identity": 116,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "防火墙端口开放检查"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:116"
+    }
+  },
+  {
+    "n": {
+      "identity": 77,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在WAF中启用XSS保护规则。 2. 通过正则表达式检查用户输入，屏蔽可能的恶意脚本。",
+        "defective_software": "WAF-3.0",
+        "color": "red",
+        "name": "跨站点脚本攻击",
+        "attack_reason": "用户提交的输入未经过滤直接执行。",
+        "description": "检测到在网站上进行的跨站脚本攻击企图。",
+        "preventive_measures": "设置Web应用防火墙，执行严格的输入验证。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:77"
+    },
+    "r": {
+      "identity": 42,
+      "start": 77,
+      "end": 125,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:42",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:77",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:125"
+    },
+    "m": {
+      "identity": 125,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "应用日志检查"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:125"
+    }
+  },
+  {
+    "n": {
+      "identity": 77,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在WAF中启用XSS保护规则。 2. 通过正则表达式检查用户输入，屏蔽可能的恶意脚本。",
+        "defective_software": "WAF-3.0",
+        "color": "red",
+        "name": "跨站点脚本攻击",
+        "attack_reason": "用户提交的输入未经过滤直接执行。",
+        "description": "检测到在网站上进行的跨站脚本攻击企图。",
+        "preventive_measures": "设置Web应用防火墙，执行严格的输入验证。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:77"
+    },
+    "r": {
+      "identity": 43,
+      "start": 77,
+      "end": 2,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:43",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:77",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:2"
+    },
+    "m": {
+      "identity": 2,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "输入验证策略检查"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:2"
+    }
+  },
+  {
+    "n": {
+      "identity": 80,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 设置多因子身份验证以增加访问安全。 2. 定期检查VPN日志以识别异常行为。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN访问日志异常",
+        "attack_reason": "弱密码导致的未授权访问。",
+        "description": "在VPN访问日志中检测到异常登录活动。",
+        "preventive_measures": "启用多因子身份验证，定期审查访问日志。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:80"
+    },
+    "r": {
+      "identity": 44,
+      "start": 80,
+      "end": 121,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:44",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:80",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:121"
+    },
+    "m": {
+      "identity": 121,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "VPN访问日志分析"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:121"
+    }
+  },
+  {
+    "n": {
+      "identity": 80,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 设置多因子身份验证以增加访问安全。 2. 定期检查VPN日志以识别异常行为。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN访问日志异常",
+        "attack_reason": "弱密码导致的未授权访问。",
+        "description": "在VPN访问日志中检测到异常登录活动。",
+        "preventive_measures": "启用多因子身份验证，定期审查访问日志。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:80"
+    },
+    "r": {
+      "identity": 45,
+      "start": 80,
+      "end": 0,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:45",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:80",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:0"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "账号活动监控"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 74,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 将文件共享权限设置为仅允许授权用户访问。 2. 使用VPN加密远程访问。",
+        "defective_software": "FS-2.1",
+        "color": "red",
+        "name": "文件共享服务配置错误",
+        "attack_reason": "文件共享权限未严格配置，导致无关用户可访问。",
+        "description": "发现文件共享服务存在配置错误，导致内部敏感信息被暴露。",
+        "preventive_measures": "严格控制共享文件权限，启用访问日志记录。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:74"
+    },
+    "r": {
+      "identity": 46,
+      "start": 74,
+      "end": 119,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:46",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:74",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:119"
+    },
+    "m": {
+      "identity": 119,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "共享权限检查"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:119"
+    }
+  },
+  {
+    "n": {
+      "identity": 74,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 将文件共享权限设置为仅允许授权用户访问。 2. 使用VPN加密远程访问。",
+        "defective_software": "FS-2.1",
+        "color": "red",
+        "name": "文件共享服务配置错误",
+        "attack_reason": "文件共享权限未严格配置，导致无关用户可访问。",
+        "description": "发现文件共享服务存在配置错误，导致内部敏感信息被暴露。",
+        "preventive_measures": "严格控制共享文件权限，启用访问日志记录。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:74"
+    },
+    "r": {
+      "identity": 47,
+      "start": 74,
+      "end": 111,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:47",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:74",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:111"
+    },
+    "m": {
+      "identity": 111,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "文件访问日志分析"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:111"
+    }
+  },
+  {
+    "n": {
+      "identity": 81,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 通过防火墙屏蔽所有非必要端口。 2. 在IDS中设置对异常流量的实时报警。",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "网络端口扫描检测",
+        "attack_reason": "外部攻击者通过端口扫描探测网络漏洞。",
+        "description": "检测到针对网络的端口扫描活动，可能预示着潜在的入侵行为。",
+        "preventive_measures": "限制不必要的端口，设置流量阈值报警。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:81"
+    },
+    "r": {
+      "identity": 48,
+      "start": 81,
+      "end": 3,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:48",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:81",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:3"
+    },
+    "m": {
+      "identity": 3,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "流量日志分析"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:3"
+    }
+  },
+  {
+    "n": {
+      "identity": 81,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 通过防火墙屏蔽所有非必要端口。 2. 在IDS中设置对异常流量的实时报警。",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "网络端口扫描检测",
+        "attack_reason": "外部攻击者通过端口扫描探测网络漏洞。",
+        "description": "检测到针对网络的端口扫描活动，可能预示着潜在的入侵行为。",
+        "preventive_measures": "限制不必要的端口，设置流量阈值报警。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:81"
+    },
+    "r": {
+      "identity": 49,
+      "start": 81,
+      "end": 117,
+      "type": "REQUIRES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:49",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:81",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:117"
+    },
+    "m": {
+      "identity": 117,
+      "labels": [
+        "CheckItem"
+      ],
+      "properties": {
+        "color": "green",
+        "name": "防火墙端口规则检查"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:117"
+    }
+  },
+  {
+    "n": {
+      "identity": 82,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Increase password length to 12 characters. 2. Enable account lockout after 3 failed attempts.",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "Unauthorized Access Attempt",
+        "attack_reason": "Weak user credentials, Lack of network segmentation.",
+        "description": "An unauthorized access attempt was detected on the network.",
+        "preventive_measures": "Implement strong password policies, enable two-factor authentication."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:82"
+    },
+    "r": {
+      "identity": 50,
+      "start": 82,
+      "end": 53,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:50",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:82",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:53"
+    },
+    "m": {
+      "identity": 53,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "Data Breach"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:53"
+    }
+  },
+  {
+    "n": {
+      "identity": 82,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Increase password length to 12 characters. 2. Enable account lockout after 3 failed attempts.",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "Unauthorized Access Attempt",
+        "attack_reason": "Weak user credentials, Lack of network segmentation.",
+        "description": "An unauthorized access attempt was detected on the network.",
+        "preventive_measures": "Implement strong password policies, enable two-factor authentication."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:82"
+    },
+    "r": {
+      "identity": 51,
+      "start": 82,
+      "end": 55,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:51",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:82",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:55"
+    },
+    "m": {
+      "identity": 55,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "System Compromise"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:55"
+    }
+  },
+  {
+    "n": {
+      "identity": 79,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Isolate infected machine from the network. 2. Perform a full malware scan.",
+        "defective_software": "AV-3.2",
+        "color": "red",
+        "name": "Malware Infection Detected",
+        "attack_reason": "Malicious email attachment opened.",
+        "description": "A malware infection was detected on a server.",
+        "preventive_measures": "Regular software updates, employee training on phishing attacks."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:79"
+    },
+    "r": {
+      "identity": 52,
+      "start": 79,
+      "end": 35,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:52",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:79",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:35"
+    },
+    "m": {
+      "identity": 35,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "Data Loss"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:35"
+    }
+  },
+  {
+    "n": {
+      "identity": 79,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Isolate infected machine from the network. 2. Perform a full malware scan.",
+        "defective_software": "AV-3.2",
+        "color": "red",
+        "name": "Malware Infection Detected",
+        "attack_reason": "Malicious email attachment opened.",
+        "description": "A malware infection was detected on a server.",
+        "preventive_measures": "Regular software updates, employee training on phishing attacks."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:79"
+    },
+    "r": {
+      "identity": 53,
+      "start": 79,
+      "end": 36,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:53",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:79",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:36"
+    },
+    "m": {
+      "identity": 36,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "System Downtime"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:36"
+    }
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Block sender domain in email filter. 2. Notify users to change passwords.",
+        "defective_software": "EF-1.1",
+        "color": "red",
+        "name": "Phishing Email Reported",
+        "attack_reason": "User clicked on a malicious link in the email.",
+        "description": "A user reported a phishing email attempting to steal credentials.",
+        "preventive_measures": "Implement email filtering rules, conduct regular training sessions."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:85"
+    },
+    "r": {
+      "identity": 54,
+      "start": 85,
+      "end": 51,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:54",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:85",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:51"
+    },
+    "m": {
+      "identity": 51,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "Credential Theft"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:51"
+    }
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Block sender domain in email filter. 2. Notify users to change passwords.",
+        "defective_software": "EF-1.1",
+        "color": "red",
+        "name": "Phishing Email Reported",
+        "attack_reason": "User clicked on a malicious link in the email.",
+        "description": "A user reported a phishing email attempting to steal credentials.",
+        "preventive_measures": "Implement email filtering rules, conduct regular training sessions."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:85"
+    },
+    "r": {
+      "identity": 55,
+      "start": 85,
+      "end": 39,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:55",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:85",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:39"
+    },
+    "m": {
+      "identity": 39,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "Financial Loss"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:39"
+    }
+  },
+  {
+    "n": {
+      "identity": 83,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 加强数据访问审核。 2. 定期评估数据保护措施。",
+        "defective_software": "DLP-1.0",
+        "color": "red",
+        "name": "数据泄露",
+        "attack_reason": "内部人员失误，安全策略不完善。",
+        "description": "检测到敏感数据被未经授权的用户访问。",
+        "preventive_measures": "实施数据加密，定期更新访问权限。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:83"
+    },
+    "r": {
+      "identity": 56,
+      "start": 83,
+      "end": 42,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:56",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:83",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:42"
+    },
+    "m": {
+      "identity": 42,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "敏感信息泄露"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:42"
+    }
+  },
+  {
+    "n": {
+      "identity": 83,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 加强数据访问审核。 2. 定期评估数据保护措施。",
+        "defective_software": "DLP-1.0",
+        "color": "red",
+        "name": "数据泄露",
+        "attack_reason": "内部人员失误，安全策略不完善。",
+        "description": "检测到敏感数据被未经授权的用户访问。",
+        "preventive_measures": "实施数据加密，定期更新访问权限。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:83"
+    },
+    "r": {
+      "identity": 57,
+      "start": 83,
+      "end": 46,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:57",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:83",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:46"
+    },
+    "m": {
+      "identity": 46,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "法律责任"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:46"
+    }
+  },
+  {
+    "n": {
+      "identity": 75,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 增加带宽，提升服务抗压能力。 2. 启用防火墙规则。",
+        "defective_software": "FW-3.0",
+        "color": "red",
+        "name": "拒绝服务攻击",
+        "attack_reason": "攻击者利用网络漏洞发起攻击。",
+        "description": "发现针对网站的拒绝服务攻击，导致服务不可用。",
+        "preventive_measures": "部署流量清洗服务，优化服务器配置。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:75"
+    },
+    "r": {
+      "identity": 58,
+      "start": 75,
+      "end": 45,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:58",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:75",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:45"
+    },
+    "m": {
+      "identity": 45,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "系统瘫痪"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:45"
+    }
+  },
+  {
+    "n": {
+      "identity": 75,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 增加带宽，提升服务抗压能力。 2. 启用防火墙规则。",
+        "defective_software": "FW-3.0",
+        "color": "red",
+        "name": "拒绝服务攻击",
+        "attack_reason": "攻击者利用网络漏洞发起攻击。",
+        "description": "发现针对网站的拒绝服务攻击，导致服务不可用。",
+        "preventive_measures": "部署流量清洗服务，优化服务器配置。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:75"
+    },
+    "r": {
+      "identity": 59,
+      "start": 75,
+      "end": 50,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:59",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:75",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:50"
+    },
+    "m": {
+      "identity": 50,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "服务中断"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:50"
+    }
+  },
+  {
+    "n": {
+      "identity": 78,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 隔离受感染的设备。 2. 执行全面的病毒扫描。",
+        "defective_software": "AV-4.0",
+        "color": "red",
+        "name": "恶意软件感染",
+        "attack_reason": "用户打开了带病毒的文件。",
+        "description": "在员工的计算机上发现了恶意软件感染。",
+        "preventive_measures": "定期进行安全培训，确保软件及时更新。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:78"
+    },
+    "r": {
+      "identity": 60,
+      "start": 78,
+      "end": 40,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:60",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:78",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:40"
+    },
+    "m": {
+      "identity": 40,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "数据损失"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:40"
+    }
+  },
+  {
+    "n": {
+      "identity": 78,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 隔离受感染的设备。 2. 执行全面的病毒扫描。",
+        "defective_software": "AV-4.0",
+        "color": "red",
+        "name": "恶意软件感染",
+        "attack_reason": "用户打开了带病毒的文件。",
+        "description": "在员工的计算机上发现了恶意软件感染。",
+        "preventive_measures": "定期进行安全培训，确保软件及时更新。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:78"
+    },
+    "r": {
+      "identity": 61,
+      "start": 78,
+      "end": 43,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:61",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:78",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:43"
+    },
+    "m": {
+      "identity": 43,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "系统崩溃"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:43"
+    }
+  },
+  {
+    "n": {
+      "identity": 84,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在邮件过滤器中屏蔽可疑发件人。 2. 通知用户更改密码。",
+        "defective_software": "EF-2.0",
+        "color": "red",
+        "name": "网络钓鱼攻击",
+        "attack_reason": "用户点击了邮件中的恶意链接。",
+        "description": "用户报告收到钓鱼邮件，试图盗取其凭证。",
+        "preventive_measures": "实施强制邮件过滤规则，进行定期的安全培训。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:84"
+    },
+    "r": {
+      "identity": 62,
+      "start": 84,
+      "end": 37,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:62",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:84",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:37"
+    },
+    "m": {
+      "identity": 37,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "账号被盗"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:37"
+    }
+  },
+  {
+    "n": {
+      "identity": 84,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在邮件过滤器中屏蔽可疑发件人。 2. 通知用户更改密码。",
+        "defective_software": "EF-2.0",
+        "color": "red",
+        "name": "网络钓鱼攻击",
+        "attack_reason": "用户点击了邮件中的恶意链接。",
+        "description": "用户报告收到钓鱼邮件，试图盗取其凭证。",
+        "preventive_measures": "实施强制邮件过滤规则，进行定期的安全培训。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:84"
+    },
+    "r": {
+      "identity": 63,
+      "start": 84,
+      "end": 38,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:63",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:84",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:38"
+    },
+    "m": {
+      "identity": 38,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "财务损失"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:38"
+    }
+  },
+  {
+    "n": {
+      "identity": 76,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 确保VPN使用强加密协议（如AES-256）。 2. 在防火墙中只开放VPN所需的端口，屏蔽其他非必要端口。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN配置异常",
+        "attack_reason": "配置错误导致VPN连接不稳定，且开放端口缺乏限制。",
+        "description": "检测到VPN配置异常，部分用户未能成功连接。",
+        "preventive_measures": "确保VPN服务器配置准确，限制未授权用户的访问。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:76"
+    },
+    "r": {
+      "identity": 64,
+      "start": 76,
+      "end": 54,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:64",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:76",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:54"
+    },
+    "m": {
+      "identity": 54,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "数据泄露"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:54"
+    }
+  },
+  {
+    "n": {
+      "identity": 76,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 确保VPN使用强加密协议（如AES-256）。 2. 在防火墙中只开放VPN所需的端口，屏蔽其他非必要端口。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN配置异常",
+        "attack_reason": "配置错误导致VPN连接不稳定，且开放端口缺乏限制。",
+        "description": "检测到VPN配置异常，部分用户未能成功连接。",
+        "preventive_measures": "确保VPN服务器配置准确，限制未授权用户的访问。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:76"
+    },
+    "r": {
+      "identity": 65,
+      "start": 76,
+      "end": 49,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:65",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:76",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:49"
+    },
+    "m": {
+      "identity": 49,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "网络不稳定"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:49"
+    }
+  },
+  {
+    "n": {
+      "identity": 77,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在WAF中启用XSS保护规则。 2. 通过正则表达式检查用户输入，屏蔽可能的恶意脚本。",
+        "defective_software": "WAF-3.0",
+        "color": "red",
+        "name": "跨站点脚本攻击",
+        "attack_reason": "用户提交的输入未经过滤直接执行。",
+        "description": "检测到在网站上进行的跨站脚本攻击企图。",
+        "preventive_measures": "设置Web应用防火墙，执行严格的输入验证。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:77"
+    },
+    "r": {
+      "identity": 66,
+      "start": 77,
+      "end": 48,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:66",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:77",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:48"
+    },
+    "m": {
+      "identity": 48,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "数据篡改"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:48"
+    }
+  },
+  {
+    "n": {
+      "identity": 77,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在WAF中启用XSS保护规则。 2. 通过正则表达式检查用户输入，屏蔽可能的恶意脚本。",
+        "defective_software": "WAF-3.0",
+        "color": "red",
+        "name": "跨站点脚本攻击",
+        "attack_reason": "用户提交的输入未经过滤直接执行。",
+        "description": "检测到在网站上进行的跨站脚本攻击企图。",
+        "preventive_measures": "设置Web应用防火墙，执行严格的输入验证。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:77"
+    },
+    "r": {
+      "identity": 67,
+      "start": 77,
+      "end": 41,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:67",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:77",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:41"
+    },
+    "m": {
+      "identity": 41,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "隐私泄露"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:41"
+    }
+  },
+  {
+    "n": {
+      "identity": 80,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 设置多因子身份验证以增加访问安全。 2. 定期检查VPN日志以识别异常行为。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN访问日志异常",
+        "attack_reason": "弱密码导致的未授权访问。",
+        "description": "在VPN访问日志中检测到异常登录活动。",
+        "preventive_measures": "启用多因子身份验证，定期审查访问日志。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:80"
+    },
+    "r": {
+      "identity": 68,
+      "start": 80,
+      "end": 44,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:68",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:80",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:44"
+    },
+    "m": {
+      "identity": 44,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "未授权访问"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:44"
+    }
+  },
+  {
+    "n": {
+      "identity": 80,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 设置多因子身份验证以增加访问安全。 2. 定期检查VPN日志以识别异常行为。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN访问日志异常",
+        "attack_reason": "弱密码导致的未授权访问。",
+        "description": "在VPN访问日志中检测到异常登录活动。",
+        "preventive_measures": "启用多因子身份验证，定期审查访问日志。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:80"
+    },
+    "r": {
+      "identity": 69,
+      "start": 80,
+      "end": 54,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:69",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:80",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:54"
+    },
+    "m": {
+      "identity": 54,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "数据泄露"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:54"
+    }
+  },
+  {
+    "n": {
+      "identity": 74,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 将文件共享权限设置为仅允许授权用户访问。 2. 使用VPN加密远程访问。",
+        "defective_software": "FS-2.1",
+        "color": "red",
+        "name": "文件共享服务配置错误",
+        "attack_reason": "文件共享权限未严格配置，导致无关用户可访问。",
+        "description": "发现文件共享服务存在配置错误，导致内部敏感信息被暴露。",
+        "preventive_measures": "严格控制共享文件权限，启用访问日志记录。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:74"
+    },
+    "r": {
+      "identity": 70,
+      "start": 74,
+      "end": 54,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:70",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:74",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:54"
+    },
+    "m": {
+      "identity": 54,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "数据泄露"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:54"
+    }
+  },
+  {
+    "n": {
+      "identity": 74,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 将文件共享权限设置为仅允许授权用户访问。 2. 使用VPN加密远程访问。",
+        "defective_software": "FS-2.1",
+        "color": "red",
+        "name": "文件共享服务配置错误",
+        "attack_reason": "文件共享权限未严格配置，导致无关用户可访问。",
+        "description": "发现文件共享服务存在配置错误，导致内部敏感信息被暴露。",
+        "preventive_measures": "严格控制共享文件权限，启用访问日志记录。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:74"
+    },
+    "r": {
+      "identity": 71,
+      "start": 74,
+      "end": 52,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:71",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:74",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:52"
+    },
+    "m": {
+      "identity": 52,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "内部信息泄漏"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:52"
+    }
+  },
+  {
+    "n": {
+      "identity": 81,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 通过防火墙屏蔽所有非必要端口。 2. 在IDS中设置对异常流量的实时报警。",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "网络端口扫描检测",
+        "attack_reason": "外部攻击者通过端口扫描探测网络漏洞。",
+        "description": "检测到针对网络的端口扫描活动，可能预示着潜在的入侵行为。",
+        "preventive_measures": "限制不必要的端口，设置流量阈值报警。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:81"
+    },
+    "r": {
+      "identity": 72,
+      "start": 81,
+      "end": 34,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:72",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:81",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:34"
+    },
+    "m": {
+      "identity": 34,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "潜在入侵"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:34"
+    }
+  },
+  {
+    "n": {
+      "identity": 81,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 通过防火墙屏蔽所有非必要端口。 2. 在IDS中设置对异常流量的实时报警。",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "网络端口扫描检测",
+        "attack_reason": "外部攻击者通过端口扫描探测网络漏洞。",
+        "description": "检测到针对网络的端口扫描活动，可能预示着潜在的入侵行为。",
+        "preventive_measures": "限制不必要的端口，设置流量阈值报警。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:81"
+    },
+    "r": {
+      "identity": 73,
+      "start": 81,
+      "end": 47,
+      "type": "CAUSES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:73",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:81",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:47"
+    },
+    "m": {
+      "identity": 47,
+      "labels": [
+        "Harm"
+      ],
+      "properties": {
+        "color": "orange",
+        "name": "资源耗尽"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:47"
+    }
+  },
+  {
+    "n": {
+      "identity": 82,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Increase password length to 12 characters. 2. Enable account lockout after 3 failed attempts.",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "Unauthorized Access Attempt",
+        "attack_reason": "Weak user credentials, Lack of network segmentation.",
+        "description": "An unauthorized access attempt was detected on the network.",
+        "preventive_measures": "Implement strong password policies, enable two-factor authentication."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:82"
+    },
+    "r": {
+      "identity": 78,
+      "start": 82,
+      "end": 91,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:78",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:82",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:91"
+    },
+    "m": {
+      "identity": 91,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "Intrusion Detection System"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:91"
+    }
+  },
+  {
+    "n": {
+      "identity": 82,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Increase password length to 12 characters. 2. Enable account lockout after 3 failed attempts.",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "Unauthorized Access Attempt",
+        "attack_reason": "Weak user credentials, Lack of network segmentation.",
+        "description": "An unauthorized access attempt was detected on the network.",
+        "preventive_measures": "Implement strong password policies, enable two-factor authentication."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:82"
+    },
+    "r": {
+      "identity": 79,
+      "start": 82,
+      "end": 95,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:79",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:82",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:95"
+    },
+    "m": {
+      "identity": 95,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "Firewall Configuration"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:95"
+    }
+  },
+  {
+    "n": {
+      "identity": 79,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Isolate infected machine from the network. 2. Perform a full malware scan.",
+        "defective_software": "AV-3.2",
+        "color": "red",
+        "name": "Malware Infection Detected",
+        "attack_reason": "Malicious email attachment opened.",
+        "description": "A malware infection was detected on a server.",
+        "preventive_measures": "Regular software updates, employee training on phishing attacks."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:79"
+    },
+    "r": {
+      "identity": 80,
+      "start": 79,
+      "end": 87,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:80",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:79",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:87"
+    },
+    "m": {
+      "identity": 87,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "Antivirus Update"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:87"
+    }
+  },
+  {
+    "n": {
+      "identity": 79,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Isolate infected machine from the network. 2. Perform a full malware scan.",
+        "defective_software": "AV-3.2",
+        "color": "red",
+        "name": "Malware Infection Detected",
+        "attack_reason": "Malicious email attachment opened.",
+        "description": "A malware infection was detected on a server.",
+        "preventive_measures": "Regular software updates, employee training on phishing attacks."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:79"
+    },
+    "r": {
+      "identity": 81,
+      "start": 79,
+      "end": 99,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:81",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:79",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:99"
+    },
+    "m": {
+      "identity": 99,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "Network Segmentation"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:99"
+    }
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Block sender domain in email filter. 2. Notify users to change passwords.",
+        "defective_software": "EF-1.1",
+        "color": "red",
+        "name": "Phishing Email Reported",
+        "attack_reason": "User clicked on a malicious link in the email.",
+        "description": "A user reported a phishing email attempting to steal credentials.",
+        "preventive_measures": "Implement email filtering rules, conduct regular training sessions."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:85"
+    },
+    "r": {
+      "identity": 82,
+      "start": 85,
+      "end": 102,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:82",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:85",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:102"
+    },
+    "m": {
+      "identity": 102,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "Email Filtering"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:102"
+    }
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Block sender domain in email filter. 2. Notify users to change passwords.",
+        "defective_software": "EF-1.1",
+        "color": "red",
+        "name": "Phishing Email Reported",
+        "attack_reason": "User clicked on a malicious link in the email.",
+        "description": "A user reported a phishing email attempting to steal credentials.",
+        "preventive_measures": "Implement email filtering rules, conduct regular training sessions."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:85"
+    },
+    "r": {
+      "identity": 83,
+      "start": 85,
+      "end": 105,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:83",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:85",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:105"
+    },
+    "m": {
+      "identity": 105,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "User Awareness Training"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:105"
+    }
+  },
+  {
+    "n": {
+      "identity": 83,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 加强数据访问审核。 2. 定期评估数据保护措施。",
+        "defective_software": "DLP-1.0",
+        "color": "red",
+        "name": "数据泄露",
+        "attack_reason": "内部人员失误，安全策略不完善。",
+        "description": "检测到敏感数据被未经授权的用户访问。",
+        "preventive_measures": "实施数据加密，定期更新访问权限。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:83"
+    },
+    "r": {
+      "identity": 84,
+      "start": 83,
+      "end": 93,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:84",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:83",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:93"
+    },
+    "m": {
+      "identity": 93,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "数据加密"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:93"
+    }
+  },
+  {
+    "n": {
+      "identity": 83,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 加强数据访问审核。 2. 定期评估数据保护措施。",
+        "defective_software": "DLP-1.0",
+        "color": "red",
+        "name": "数据泄露",
+        "attack_reason": "内部人员失误，安全策略不完善。",
+        "description": "检测到敏感数据被未经授权的用户访问。",
+        "preventive_measures": "实施数据加密，定期更新访问权限。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:83"
+    },
+    "r": {
+      "identity": 85,
+      "start": 83,
+      "end": 86,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:85",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:83",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:86"
+    },
+    "m": {
+      "identity": 86,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "访问控制"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:86"
+    }
+  },
+  {
+    "n": {
+      "identity": 75,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 增加带宽，提升服务抗压能力。 2. 启用防火墙规则。",
+        "defective_software": "FW-3.0",
+        "color": "red",
+        "name": "拒绝服务攻击",
+        "attack_reason": "攻击者利用网络漏洞发起攻击。",
+        "description": "发现针对网站的拒绝服务攻击，导致服务不可用。",
+        "preventive_measures": "部署流量清洗服务，优化服务器配置。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:75"
+    },
+    "r": {
+      "identity": 86,
+      "start": 75,
+      "end": 89,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:86",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:75",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:89"
+    },
+    "m": {
+      "identity": 89,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "流量监控"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:89"
+    }
+  },
+  {
+    "n": {
+      "identity": 75,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 增加带宽，提升服务抗压能力。 2. 启用防火墙规则。",
+        "defective_software": "FW-3.0",
+        "color": "red",
+        "name": "拒绝服务攻击",
+        "attack_reason": "攻击者利用网络漏洞发起攻击。",
+        "description": "发现针对网站的拒绝服务攻击，导致服务不可用。",
+        "preventive_measures": "部署流量清洗服务，优化服务器配置。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:75"
+    },
+    "r": {
+      "identity": 87,
+      "start": 75,
+      "end": 106,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:87",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:75",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:106"
+    },
+    "m": {
+      "identity": 106,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "网络隔离"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:106"
+    }
+  },
+  {
+    "n": {
+      "identity": 78,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 隔离受感染的设备。 2. 执行全面的病毒扫描。",
+        "defective_software": "AV-4.0",
+        "color": "red",
+        "name": "恶意软件感染",
+        "attack_reason": "用户打开了带病毒的文件。",
+        "description": "在员工的计算机上发现了恶意软件感染。",
+        "preventive_measures": "定期进行安全培训，确保软件及时更新。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:78"
+    },
+    "r": {
+      "identity": 88,
+      "start": 78,
+      "end": 100,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:88",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:78",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:100"
+    },
+    "m": {
+      "identity": 100,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "实时监控"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:100"
+    }
+  },
+  {
+    "n": {
+      "identity": 78,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 隔离受感染的设备。 2. 执行全面的病毒扫描。",
+        "defective_software": "AV-4.0",
+        "color": "red",
+        "name": "恶意软件感染",
+        "attack_reason": "用户打开了带病毒的文件。",
+        "description": "在员工的计算机上发现了恶意软件感染。",
+        "preventive_measures": "定期进行安全培训，确保软件及时更新。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:78"
+    },
+    "r": {
+      "identity": 89,
+      "start": 78,
+      "end": 108,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:89",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:78",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:108"
+    },
+    "m": {
+      "identity": 108,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "定期扫描"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:108"
+    }
+  },
+  {
+    "n": {
+      "identity": 84,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在邮件过滤器中屏蔽可疑发件人。 2. 通知用户更改密码。",
+        "defective_software": "EF-2.0",
+        "color": "red",
+        "name": "网络钓鱼攻击",
+        "attack_reason": "用户点击了邮件中的恶意链接。",
+        "description": "用户报告收到钓鱼邮件，试图盗取其凭证。",
+        "preventive_measures": "实施强制邮件过滤规则，进行定期的安全培训。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:84"
+    },
+    "r": {
+      "identity": 90,
+      "start": 84,
+      "end": 103,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:90",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:84",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:103"
+    },
+    "m": {
+      "identity": 103,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "用户教育"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:103"
+    }
+  },
+  {
+    "n": {
+      "identity": 84,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在邮件过滤器中屏蔽可疑发件人。 2. 通知用户更改密码。",
+        "defective_software": "EF-2.0",
+        "color": "red",
+        "name": "网络钓鱼攻击",
+        "attack_reason": "用户点击了邮件中的恶意链接。",
+        "description": "用户报告收到钓鱼邮件，试图盗取其凭证。",
+        "preventive_measures": "实施强制邮件过滤规则，进行定期的安全培训。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:84"
+    },
+    "r": {
+      "identity": 91,
+      "start": 84,
+      "end": 101,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:91",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:84",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:101"
+    },
+    "m": {
+      "identity": 101,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "邮件过滤"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:101"
+    }
+  },
+  {
+    "n": {
+      "identity": 76,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 确保VPN使用强加密协议（如AES-256）。 2. 在防火墙中只开放VPN所需的端口，屏蔽其他非必要端口。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN配置异常",
+        "attack_reason": "配置错误导致VPN连接不稳定，且开放端口缺乏限制。",
+        "description": "检测到VPN配置异常，部分用户未能成功连接。",
+        "preventive_measures": "确保VPN服务器配置准确，限制未授权用户的访问。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:76"
+    },
+    "r": {
+      "identity": 92,
+      "start": 76,
+      "end": 96,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:92",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:76",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:96"
+    },
+    "m": {
+      "identity": 96,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "VPN设置检查"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:96"
+    }
+  },
+  {
+    "n": {
+      "identity": 76,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 确保VPN使用强加密协议（如AES-256）。 2. 在防火墙中只开放VPN所需的端口，屏蔽其他非必要端口。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN配置异常",
+        "attack_reason": "配置错误导致VPN连接不稳定，且开放端口缺乏限制。",
+        "description": "检测到VPN配置异常，部分用户未能成功连接。",
+        "preventive_measures": "确保VPN服务器配置准确，限制未授权用户的访问。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:76"
+    },
+    "r": {
+      "identity": 93,
+      "start": 76,
+      "end": 90,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:93",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:76",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:90"
+    },
+    "m": {
+      "identity": 90,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "防火墙规则配置"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:90"
+    }
+  },
+  {
+    "n": {
+      "identity": 77,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在WAF中启用XSS保护规则。 2. 通过正则表达式检查用户输入，屏蔽可能的恶意脚本。",
+        "defective_software": "WAF-3.0",
+        "color": "red",
+        "name": "跨站点脚本攻击",
+        "attack_reason": "用户提交的输入未经过滤直接执行。",
+        "description": "检测到在网站上进行的跨站脚本攻击企图。",
+        "preventive_measures": "设置Web应用防火墙，执行严格的输入验证。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:77"
+    },
+    "r": {
+      "identity": 94,
+      "start": 77,
+      "end": 92,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:94",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:77",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:92"
+    },
+    "m": {
+      "identity": 92,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "应用防火墙设置"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:92"
+    }
+  },
+  {
+    "n": {
+      "identity": 77,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在WAF中启用XSS保护规则。 2. 通过正则表达式检查用户输入，屏蔽可能的恶意脚本。",
+        "defective_software": "WAF-3.0",
+        "color": "red",
+        "name": "跨站点脚本攻击",
+        "attack_reason": "用户提交的输入未经过滤直接执行。",
+        "description": "检测到在网站上进行的跨站脚本攻击企图。",
+        "preventive_measures": "设置Web应用防火墙，执行严格的输入验证。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:77"
+    },
+    "r": {
+      "identity": 95,
+      "start": 77,
+      "end": 104,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:95",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:77",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:104"
+    },
+    "m": {
+      "identity": 104,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "输入过滤配置"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:104"
+    }
+  },
+  {
+    "n": {
+      "identity": 80,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 设置多因子身份验证以增加访问安全。 2. 定期检查VPN日志以识别异常行为。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN访问日志异常",
+        "attack_reason": "弱密码导致的未授权访问。",
+        "description": "在VPN访问日志中检测到异常登录活动。",
+        "preventive_measures": "启用多因子身份验证，定期审查访问日志。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:80"
+    },
+    "r": {
+      "identity": 96,
+      "start": 80,
+      "end": 98,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:96",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:80",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:98"
+    },
+    "m": {
+      "identity": 98,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "日志监控"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:98"
+    }
+  },
+  {
+    "n": {
+      "identity": 80,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 设置多因子身份验证以增加访问安全。 2. 定期检查VPN日志以识别异常行为。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN访问日志异常",
+        "attack_reason": "弱密码导致的未授权访问。",
+        "description": "在VPN访问日志中检测到异常登录活动。",
+        "preventive_measures": "启用多因子身份验证，定期审查访问日志。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:80"
+    },
+    "r": {
+      "identity": 97,
+      "start": 80,
+      "end": 97,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:97",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:80",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:97"
+    },
+    "m": {
+      "identity": 97,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "异常行为检测"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:97"
+    }
+  },
+  {
+    "n": {
+      "identity": 74,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 将文件共享权限设置为仅允许授权用户访问。 2. 使用VPN加密远程访问。",
+        "defective_software": "FS-2.1",
+        "color": "red",
+        "name": "文件共享服务配置错误",
+        "attack_reason": "文件共享权限未严格配置，导致无关用户可访问。",
+        "description": "发现文件共享服务存在配置错误，导致内部敏感信息被暴露。",
+        "preventive_measures": "严格控制共享文件权限，启用访问日志记录。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:74"
+    },
+    "r": {
+      "identity": 98,
+      "start": 74,
+      "end": 88,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:98",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:74",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:88"
+    },
+    "m": {
+      "identity": 88,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "权限设置检查"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:88"
+    }
+  },
+  {
+    "n": {
+      "identity": 74,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 将文件共享权限设置为仅允许授权用户访问。 2. 使用VPN加密远程访问。",
+        "defective_software": "FS-2.1",
+        "color": "red",
+        "name": "文件共享服务配置错误",
+        "attack_reason": "文件共享权限未严格配置，导致无关用户可访问。",
+        "description": "发现文件共享服务存在配置错误，导致内部敏感信息被暴露。",
+        "preventive_measures": "严格控制共享文件权限，启用访问日志记录。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:74"
+    },
+    "r": {
+      "identity": 99,
+      "start": 74,
+      "end": 94,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:99",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:74",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:94"
+    },
+    "m": {
+      "identity": 94,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "共享配置优化"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:94"
+    }
+  },
+  {
+    "n": {
+      "identity": 81,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 通过防火墙屏蔽所有非必要端口。 2. 在IDS中设置对异常流量的实时报警。",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "网络端口扫描检测",
+        "attack_reason": "外部攻击者通过端口扫描探测网络漏洞。",
+        "description": "检测到针对网络的端口扫描活动，可能预示着潜在的入侵行为。",
+        "preventive_measures": "限制不必要的端口，设置流量阈值报警。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:81"
+    },
+    "r": {
+      "identity": 100,
+      "start": 81,
+      "end": 89,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:100",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:81",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:89"
+    },
+    "m": {
+      "identity": 89,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "流量监控"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:89"
+    }
+  },
+  {
+    "n": {
+      "identity": 81,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 通过防火墙屏蔽所有非必要端口。 2. 在IDS中设置对异常流量的实时报警。",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "网络端口扫描检测",
+        "attack_reason": "外部攻击者通过端口扫描探测网络漏洞。",
+        "description": "检测到针对网络的端口扫描活动，可能预示着潜在的入侵行为。",
+        "preventive_measures": "限制不必要的端口，设置流量阈值报警。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:81"
+    },
+    "r": {
+      "identity": 101,
+      "start": 81,
+      "end": 107,
+      "type": "USES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:101",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:81",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:107"
+    },
+    "m": {
+      "identity": 107,
+      "labels": [
+        "MaintenanceMethod"
+      ],
+      "properties": {
+        "color": "blue",
+        "name": "防火墙规则优化"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:107"
+    }
+  },
+  {
+    "n": {
+      "identity": 82,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Increase password length to 12 characters. 2. Enable account lockout after 3 failed attempts.",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "Unauthorized Access Attempt",
+        "attack_reason": "Weak user credentials, Lack of network segmentation.",
+        "description": "An unauthorized access attempt was detected on the network.",
+        "preventive_measures": "Implement strong password policies, enable two-factor authentication."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:82"
+    },
+    "r": {
+      "identity": 102,
+      "start": 82,
+      "end": 7,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:102",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:82",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:7"
+    },
+    "m": {
+      "identity": 7,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "IDS-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 82,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Increase password length to 12 characters. 2. Enable account lockout after 3 failed attempts.",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "Unauthorized Access Attempt",
+        "attack_reason": "Weak user credentials, Lack of network segmentation.",
+        "description": "An unauthorized access attempt was detected on the network.",
+        "preventive_measures": "Implement strong password policies, enable two-factor authentication."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:82"
+    },
+    "r": {
+      "identity": 103,
+      "start": 82,
+      "end": 5,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:103",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:82",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 79,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Isolate infected machine from the network. 2. Perform a full malware scan.",
+        "defective_software": "AV-3.2",
+        "color": "red",
+        "name": "Malware Infection Detected",
+        "attack_reason": "Malicious email attachment opened.",
+        "description": "A malware infection was detected on a server.",
+        "preventive_measures": "Regular software updates, employee training on phishing attacks."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:79"
+    },
+    "r": {
+      "identity": 104,
+      "start": 79,
+      "end": 9,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:104",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:79",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:9"
+    },
+    "m": {
+      "identity": 9,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "AV-3.2"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 79,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Isolate infected machine from the network. 2. Perform a full malware scan.",
+        "defective_software": "AV-3.2",
+        "color": "red",
+        "name": "Malware Infection Detected",
+        "attack_reason": "Malicious email attachment opened.",
+        "description": "A malware infection was detected on a server.",
+        "preventive_measures": "Regular software updates, employee training on phishing attacks."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:79"
+    },
+    "r": {
+      "identity": 105,
+      "start": 79,
+      "end": 22,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:105",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:79",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:22"
+    },
+    "m": {
+      "identity": 22,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "NS-4.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:22"
+    }
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Block sender domain in email filter. 2. Notify users to change passwords.",
+        "defective_software": "EF-1.1",
+        "color": "red",
+        "name": "Phishing Email Reported",
+        "attack_reason": "User clicked on a malicious link in the email.",
+        "description": "A user reported a phishing email attempting to steal credentials.",
+        "preventive_measures": "Implement email filtering rules, conduct regular training sessions."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:85"
+    },
+    "r": {
+      "identity": 106,
+      "start": 85,
+      "end": 6,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:106",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:85",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:6"
+    },
+    "m": {
+      "identity": 6,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "EF-1.1"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 85,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. Block sender domain in email filter. 2. Notify users to change passwords.",
+        "defective_software": "EF-1.1",
+        "color": "red",
+        "name": "Phishing Email Reported",
+        "attack_reason": "User clicked on a malicious link in the email.",
+        "description": "A user reported a phishing email attempting to steal credentials.",
+        "preventive_measures": "Implement email filtering rules, conduct regular training sessions."
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:85"
+    },
+    "r": {
+      "identity": 107,
+      "start": 85,
+      "end": 21,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:107",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:85",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:21"
+    },
+    "m": {
+      "identity": 21,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "UF-2.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:21"
+    }
+  },
+  {
+    "n": {
+      "identity": 83,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 加强数据访问审核。 2. 定期评估数据保护措施。",
+        "defective_software": "DLP-1.0",
+        "color": "red",
+        "name": "数据泄露",
+        "attack_reason": "内部人员失误，安全策略不完善。",
+        "description": "检测到敏感数据被未经授权的用户访问。",
+        "preventive_measures": "实施数据加密，定期更新访问权限。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:83"
+    },
+    "r": {
+      "identity": 108,
+      "start": 83,
+      "end": 15,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:108",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:83",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:15"
+    },
+    "m": {
+      "identity": 15,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "DLP-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:15"
+    }
+  },
+  {
+    "n": {
+      "identity": 83,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 加强数据访问审核。 2. 定期评估数据保护措施。",
+        "defective_software": "DLP-1.0",
+        "color": "red",
+        "name": "数据泄露",
+        "attack_reason": "内部人员失误，安全策略不完善。",
+        "description": "检测到敏感数据被未经授权的用户访问。",
+        "preventive_measures": "实施数据加密，定期更新访问权限。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:83"
+    },
+    "r": {
+      "identity": 109,
+      "start": 83,
+      "end": 19,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:109",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:83",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:19"
+    },
+    "m": {
+      "identity": 19,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "AC-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:19"
+    }
+  },
+  {
+    "n": {
+      "identity": 75,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 增加带宽，提升服务抗压能力。 2. 启用防火墙规则。",
+        "defective_software": "FW-3.0",
+        "color": "red",
+        "name": "拒绝服务攻击",
+        "attack_reason": "攻击者利用网络漏洞发起攻击。",
+        "description": "发现针对网站的拒绝服务攻击，导致服务不可用。",
+        "preventive_measures": "部署流量清洗服务，优化服务器配置。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:75"
+    },
+    "r": {
+      "identity": 110,
+      "start": 75,
+      "end": 8,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:110",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:75",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:8"
+    },
+    "m": {
+      "identity": 8,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "DDoS-2.1"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 75,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 增加带宽，提升服务抗压能力。 2. 启用防火墙规则。",
+        "defective_software": "FW-3.0",
+        "color": "red",
+        "name": "拒绝服务攻击",
+        "attack_reason": "攻击者利用网络漏洞发起攻击。",
+        "description": "发现针对网站的拒绝服务攻击，导致服务不可用。",
+        "preventive_measures": "部署流量清洗服务，优化服务器配置。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:75"
+    },
+    "r": {
+      "identity": 111,
+      "start": 75,
+      "end": 12,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:111",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:75",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:12"
+    },
+    "m": {
+      "identity": 12,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-3.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:12"
+    }
+  },
+  {
+    "n": {
+      "identity": 78,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 隔离受感染的设备。 2. 执行全面的病毒扫描。",
+        "defective_software": "AV-4.0",
+        "color": "red",
+        "name": "恶意软件感染",
+        "attack_reason": "用户打开了带病毒的文件。",
+        "description": "在员工的计算机上发现了恶意软件感染。",
+        "preventive_measures": "定期进行安全培训，确保软件及时更新。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:78"
+    },
+    "r": {
+      "identity": 112,
+      "start": 78,
+      "end": 10,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:112",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:78",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:10"
+    },
+    "m": {
+      "identity": 10,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "AV-4.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:10"
+    }
+  },
+  {
+    "n": {
+      "identity": 78,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 隔离受感染的设备。 2. 执行全面的病毒扫描。",
+        "defective_software": "AV-4.0",
+        "color": "red",
+        "name": "恶意软件感染",
+        "attack_reason": "用户打开了带病毒的文件。",
+        "description": "在员工的计算机上发现了恶意软件感染。",
+        "preventive_measures": "定期进行安全培训，确保软件及时更新。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:78"
+    },
+    "r": {
+      "identity": 113,
+      "start": 78,
+      "end": 18,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:113",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:78",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:18"
+    },
+    "m": {
+      "identity": 18,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "NS-2.2"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:18"
+    }
+  },
+  {
+    "n": {
+      "identity": 84,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在邮件过滤器中屏蔽可疑发件人。 2. 通知用户更改密码。",
+        "defective_software": "EF-2.0",
+        "color": "red",
+        "name": "网络钓鱼攻击",
+        "attack_reason": "用户点击了邮件中的恶意链接。",
+        "description": "用户报告收到钓鱼邮件，试图盗取其凭证。",
+        "preventive_measures": "实施强制邮件过滤规则，进行定期的安全培训。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:84"
+    },
+    "r": {
+      "identity": 114,
+      "start": 84,
+      "end": 11,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:114",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:84",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:11"
+    },
+    "m": {
+      "identity": 11,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "EF-2.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 84,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在邮件过滤器中屏蔽可疑发件人。 2. 通知用户更改密码。",
+        "defective_software": "EF-2.0",
+        "color": "red",
+        "name": "网络钓鱼攻击",
+        "attack_reason": "用户点击了邮件中的恶意链接。",
+        "description": "用户报告收到钓鱼邮件，试图盗取其凭证。",
+        "preventive_measures": "实施强制邮件过滤规则，进行定期的安全培训。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:84"
+    },
+    "r": {
+      "identity": 115,
+      "start": 84,
+      "end": 20,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:115",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:84",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:20"
+    },
+    "m": {
+      "identity": 20,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "UF-1.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:20"
+    }
+  },
+  {
+    "n": {
+      "identity": 76,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 确保VPN使用强加密协议（如AES-256）。 2. 在防火墙中只开放VPN所需的端口，屏蔽其他非必要端口。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN配置异常",
+        "attack_reason": "配置错误导致VPN连接不稳定，且开放端口缺乏限制。",
+        "description": "检测到VPN配置异常，部分用户未能成功连接。",
+        "preventive_measures": "确保VPN服务器配置准确，限制未授权用户的访问。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:76"
+    },
+    "r": {
+      "identity": 116,
+      "start": 76,
+      "end": 17,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:116",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:76",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "VPN-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 76,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 确保VPN使用强加密协议（如AES-256）。 2. 在防火墙中只开放VPN所需的端口，屏蔽其他非必要端口。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN配置异常",
+        "attack_reason": "配置错误导致VPN连接不稳定，且开放端口缺乏限制。",
+        "description": "检测到VPN配置异常，部分用户未能成功连接。",
+        "preventive_measures": "确保VPN服务器配置准确，限制未授权用户的访问。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:76"
+    },
+    "r": {
+      "identity": 117,
+      "start": 76,
+      "end": 5,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:117",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:76",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 77,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在WAF中启用XSS保护规则。 2. 通过正则表达式检查用户输入，屏蔽可能的恶意脚本。",
+        "defective_software": "WAF-3.0",
+        "color": "red",
+        "name": "跨站点脚本攻击",
+        "attack_reason": "用户提交的输入未经过滤直接执行。",
+        "description": "检测到在网站上进行的跨站脚本攻击企图。",
+        "preventive_measures": "设置Web应用防火墙，执行严格的输入验证。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:77"
+    },
+    "r": {
+      "identity": 118,
+      "start": 77,
+      "end": 13,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:118",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:77",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:13"
+    },
+    "m": {
+      "identity": 13,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "WAF-3.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:13"
+    }
+  },
+  {
+    "n": {
+      "identity": 77,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 在WAF中启用XSS保护规则。 2. 通过正则表达式检查用户输入，屏蔽可能的恶意脚本。",
+        "defective_software": "WAF-3.0",
+        "color": "red",
+        "name": "跨站点脚本攻击",
+        "attack_reason": "用户提交的输入未经过滤直接执行。",
+        "description": "检测到在网站上进行的跨站脚本攻击企图。",
+        "preventive_measures": "设置Web应用防火墙，执行严格的输入验证。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:77"
+    },
+    "r": {
+      "identity": 119,
+      "start": 77,
+      "end": 5,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:119",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:77",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 80,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 设置多因子身份验证以增加访问安全。 2. 定期检查VPN日志以识别异常行为。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN访问日志异常",
+        "attack_reason": "弱密码导致的未授权访问。",
+        "description": "在VPN访问日志中检测到异常登录活动。",
+        "preventive_measures": "启用多因子身份验证，定期审查访问日志。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:80"
+    },
+    "r": {
+      "identity": 120,
+      "start": 80,
+      "end": 16,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:120",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:80",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:16"
+    },
+    "m": {
+      "identity": 16,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "SIEM-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:16"
+    }
+  },
+  {
+    "n": {
+      "identity": 80,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 设置多因子身份验证以增加访问安全。 2. 定期检查VPN日志以识别异常行为。",
+        "defective_software": "VPN-1.0",
+        "color": "red",
+        "name": "VPN访问日志异常",
+        "attack_reason": "弱密码导致的未授权访问。",
+        "description": "在VPN访问日志中检测到异常登录活动。",
+        "preventive_measures": "启用多因子身份验证，定期审查访问日志。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:80"
+    },
+    "r": {
+      "identity": 121,
+      "start": 80,
+      "end": 17,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:121",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:80",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "VPN-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 74,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 将文件共享权限设置为仅允许授权用户访问。 2. 使用VPN加密远程访问。",
+        "defective_software": "FS-2.1",
+        "color": "red",
+        "name": "文件共享服务配置错误",
+        "attack_reason": "文件共享权限未严格配置，导致无关用户可访问。",
+        "description": "发现文件共享服务存在配置错误，导致内部敏感信息被暴露。",
+        "preventive_measures": "严格控制共享文件权限，启用访问日志记录。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:74"
+    },
+    "r": {
+      "identity": 122,
+      "start": 74,
+      "end": 14,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:122",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:74",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:14"
+    },
+    "m": {
+      "identity": 14,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FS-2.1"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:14"
+    }
+  },
+  {
+    "n": {
+      "identity": 74,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 将文件共享权限设置为仅允许授权用户访问。 2. 使用VPN加密远程访问。",
+        "defective_software": "FS-2.1",
+        "color": "red",
+        "name": "文件共享服务配置错误",
+        "attack_reason": "文件共享权限未严格配置，导致无关用户可访问。",
+        "description": "发现文件共享服务存在配置错误，导致内部敏感信息被暴露。",
+        "preventive_measures": "严格控制共享文件权限，启用访问日志记录。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:74"
+    },
+    "r": {
+      "identity": 123,
+      "start": 74,
+      "end": 17,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:123",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:74",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "VPN-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 81,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 通过防火墙屏蔽所有非必要端口。 2. 在IDS中设置对异常流量的实时报警。",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "网络端口扫描检测",
+        "attack_reason": "外部攻击者通过端口扫描探测网络漏洞。",
+        "description": "检测到针对网络的端口扫描活动，可能预示着潜在的入侵行为。",
+        "preventive_measures": "限制不必要的端口，设置流量阈值报警。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:81"
+    },
+    "r": {
+      "identity": 124,
+      "start": 81,
+      "end": 7,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:124",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:81",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:7"
+    },
+    "m": {
+      "identity": 7,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "IDS-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 81,
+      "labels": [
+        "SecurityEvent"
+      ],
+      "properties": {
+        "detailed_solution": "1. 通过防火墙屏蔽所有非必要端口。 2. 在IDS中设置对异常流量的实时报警。",
+        "defective_software": "IDS-1.0",
+        "color": "red",
+        "name": "网络端口扫描检测",
+        "attack_reason": "外部攻击者通过端口扫描探测网络漏洞。",
+        "description": "检测到针对网络的端口扫描活动，可能预示着潜在的入侵行为。",
+        "preventive_measures": "限制不必要的端口，设置流量阈值报警。"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:81"
+    },
+    "r": {
+      "identity": 125,
+      "start": 81,
+      "end": 5,
+      "type": "AFFECTS",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:125",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:81",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor A"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:28"
+    },
+    "r": {
+      "identity": 126,
+      "start": 28,
+      "end": 7,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:126",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:28",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:7"
+    },
+    "m": {
+      "identity": 7,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "IDS-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor A"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:28"
+    },
+    "r": {
+      "identity": 127,
+      "start": 28,
+      "end": 5,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:127",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:28",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor B"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:26"
+    },
+    "r": {
+      "identity": 128,
+      "start": 26,
+      "end": 7,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:128",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:26",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:7"
+    },
+    "m": {
+      "identity": 7,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "IDS-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor B"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:26"
+    },
+    "r": {
+      "identity": 129,
+      "start": 26,
+      "end": 5,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:129",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:26",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 29,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor C"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:29"
+    },
+    "r": {
+      "identity": 130,
+      "start": 29,
+      "end": 9,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:130",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:29",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:9"
+    },
+    "m": {
+      "identity": 9,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "AV-3.2"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 29,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor C"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:29"
+    },
+    "r": {
+      "identity": 131,
+      "start": 29,
+      "end": 22,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:131",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:29",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:22"
+    },
+    "m": {
+      "identity": 22,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "NS-4.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:22"
+    }
+  },
+  {
+    "n": {
+      "identity": 32,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor D"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:32"
+    },
+    "r": {
+      "identity": 132,
+      "start": 32,
+      "end": 6,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:132",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:32",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:6"
+    },
+    "m": {
+      "identity": 6,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "EF-1.1"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 32,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor D"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:32"
+    },
+    "r": {
+      "identity": 133,
+      "start": 32,
+      "end": 21,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:133",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:32",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:21"
+    },
+    "m": {
+      "identity": 21,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "UF-2.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:21"
+    }
+  },
+  {
+    "n": {
+      "identity": 31,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor E"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:31"
+    },
+    "r": {
+      "identity": 134,
+      "start": 31,
+      "end": 6,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:134",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:31",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:6"
+    },
+    "m": {
+      "identity": 6,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "EF-1.1"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 31,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor E"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:31"
+    },
+    "r": {
+      "identity": 135,
+      "start": 31,
+      "end": 21,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:135",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:31",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:21"
+    },
+    "m": {
+      "identity": 21,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "UF-2.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:21"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor F"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:33"
+    },
+    "r": {
+      "identity": 136,
+      "start": 33,
+      "end": 15,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:136",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:33",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:15"
+    },
+    "m": {
+      "identity": 15,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "DLP-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:15"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor F"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:33"
+    },
+    "r": {
+      "identity": 137,
+      "start": 33,
+      "end": 19,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:137",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:33",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:19"
+    },
+    "m": {
+      "identity": 19,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "AC-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:19"
+    }
+  },
+  {
+    "n": {
+      "identity": 25,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor G"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:25"
+    },
+    "r": {
+      "identity": 138,
+      "start": 25,
+      "end": 15,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:138",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:25",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:15"
+    },
+    "m": {
+      "identity": 15,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "DLP-1.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:15"
+    }
+  },
+  {
+    "n": {
+      "identity": 25,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor G"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:25"
+    },
+    "r": {
+      "identity": 139,
+      "start": 25,
+      "end": 19,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:139",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:25",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:19"
+    },
+    "m": {
+      "identity": 19,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "AC-2.5"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:19"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor H"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:24"
+    },
+    "r": {
+      "identity": 140,
+      "start": 24,
+      "end": 8,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:140",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:24",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:8"
+    },
+    "m": {
+      "identity": 8,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "DDoS-2.1"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "Vendor"
+      ],
+      "properties": {
+        "color": "purple",
+        "name": "Vendor H"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:24"
+    },
+    "r": {
+      "identity": 141,
+      "start": 24,
+      "end": 12,
+      "type": "PROVIDES",
+      "properties": {
+
+      },
+      "elementId": "5:88271062-9490-441c-8ce8-03b051438860:141",
+      "startNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:24",
+      "endNodeElementId": "4:88271062-9490-441c-8ce8-03b051438860:12"
+    },
+    "m": {
+      "identity": 12,
+      "labels": [
+        "DeviceSoftware"
+      ],
+      "properties": {
+        "color": "yellow",
+        "name": "FW-3.0"
+      },
+      "elementId": "4:88271062-9490-441c-8ce8-03b051438860:12"
+    }
+  }
+]

@@ -1,4 +1,5 @@
 import json
+import sys
 
 # 手工维护的两个字典
 field_map = {
@@ -20,7 +21,6 @@ static_content = {
     "suricata": {
         "description": "日志分析工具",
         "node_name": "suricata",
-
     },
     "firewalld": {
         "passwd": 123456,
@@ -35,9 +35,12 @@ static_content = {
     }
 }
 
+# 获取传入的文件路径
+input_file_path = sys.argv[1] if len(sys.argv) > 1 else "group2.json"  # 默认处理group2.json
+
 # 读取 JSON 文件
 with open("output.json", "r", encoding="utf-8") as output_file, \
-     open("group2.json", "r", encoding="utf-8") as group_file:
+     open(input_file_path, "r", encoding="utf-8") as group_file:
     output_data = json.load(output_file)
     group_data = json.load(group_file)
 
